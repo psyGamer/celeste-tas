@@ -1,0 +1,35 @@
+console load TestTAS
+70
+
+# Start
+5,drx
+10
+22,j,r
+5,rz
+15
+5,ux
+15
+15,jr
+8,rd
+47,d
+5,drx
+5,dr
+20,jr
+5,ulx
+20,dl
+40,d
+5,drx
+10
+20,jr
+5,ux
+15
+***
+20,jr
+5,rx
+8,r
+10,jl
+
+1000
+
+
+
