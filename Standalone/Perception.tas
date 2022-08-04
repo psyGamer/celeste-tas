@@ -579,6 +579,7 @@ console load campaign/perception/perception
 16,ux
 40
 
+***
 #lvl_b_08
 8,kl
 19,gjl
@@ -629,9 +630,10 @@ console load campaign/perception/perception
 6,jr
 6,k
 1
-4,l
-11,r
-15,urx
+6,l
+7,rx
+8,jr
+10,urx
 4,jr
 12,kr
 13,gjr
