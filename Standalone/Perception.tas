@@ -244,7 +244,7 @@ console load campaign/perception/perception
 14,dc
 40
 
-#lvl_a_06a(1)
+#lvl_a_06(1)
 20,dl
 14,d
 6,dlx
@@ -252,19 +252,21 @@ console load campaign/perception/perception
 1,gkl
 5,l
 4,gjl
-8,l
-11,dlx
+6,l
+14,lz
 1,jl
 7,l
-17,jl
+19,jl
+
 15,ulx
-15,ulz
+14,ulz
+
 10,j
 1,jl
 12,gkl
-5,l
-6,r
-18,dl
+4,l
+8,r
+16,dl
 15,ulz
 11,j
 10,rz
