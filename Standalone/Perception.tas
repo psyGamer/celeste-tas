@@ -554,9 +554,13 @@ console load campaign/perception/perception
 6,jl
 5,l
 12,lx
-11,jl
-16,l
-60
+3,jl
+15,ulx
+15,dc
+Repeat, 7
+2,d
+2
+EndRepeat
 1,s
 1,dj
 1,o
