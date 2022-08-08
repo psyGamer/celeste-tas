@@ -206,12 +206,13 @@ console load campaign/perception/perception
 40
 
 #lvl_a_06a
-11,r
-41,ulx
-32,rc
-36,dlx
-1,dl
-14,dc
+2
+9,r
+37,uz
+5,r
+39,dlx
+15,dc
+6,dx
 40
 
 #lvl_a_06(1)
