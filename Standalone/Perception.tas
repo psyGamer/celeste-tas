@@ -383,6 +383,7 @@ console load campaign/perception/perception
 14,dx
 40
 
+***
 #lvl_b_04
 12,dr
 14,drx
@@ -404,17 +405,17 @@ console load campaign/perception/perception
 9,d
 5
 
-46,jr
-15,urz
-2,r
-1,jr
-25,dr
-10,urz
-47,jr
-2,jl
-1,jr
-2,gk
-11,gjr
+35,jr
+15,rz
+3,r
+3,l
+1,j
+4,dr
+15,d
+15,rz
+1,l
+48,jr
+11,gkr
 7,r
 11,rx
 4,jr
