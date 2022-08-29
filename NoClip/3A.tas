@@ -107,28 +107,26 @@ Set,Naive Movement.Enabled,true
 1,gjr
 6,r
 1,gjr
-4,r
+1,gkr
 1,gjr
-3,r
-1,gjr
-7,r
+10,r
 1,jr
+2,gkr
+1,gjr
 1,gkr
 1,gjr
 1,s
 1,dj
 34
-1,gkr
-1,gjr
-1,r
+3,r
 40
 
 #lvl_05-a
 1,gjr
-1,gkr
+4,gkr
 1,gjr
 1,gkr
-9,r
+6,r
 40
 
 #lvl_06-a
@@ -140,17 +138,20 @@ Set,Naive Movement.Enabled,true
 1,gjr
 40
 
+***
 #lvl_07-a
 1,gjr
 1,r
 1,gjr
 1,gkr
-1,gjr
-6,r
+7,r
 40
 
 #lvl_08-a
-8,r
+1,r
+1,jr
+1,gkr
+9,rx
 1,s
 1,dj
 34
@@ -160,11 +161,11 @@ Set,Naive Movement.Enabled,true
 #lvl_09-a
 1,jr
 1,gkr
-21,r
+19,r
 40
 
 #lvl_11-a
-12,r
+13,r
 1,jr
 1,gkr
 1,gjr
@@ -173,22 +174,24 @@ Set,Naive Movement.Enabled,true
 40
 
 #lvl_12-b
-11,r
+5,l
+6
+8,gj
 14,ux
-28,jr
+18,jr
 12,gk
 12,gj
-10,gk
+7,gk
 40
 
 #lvl_12-c
 11,r
-12,jr
-12,kr
+12,gjr
+12,gkr
 14,ux
 18,jl
 12,gkl
-3,gj
+3,gjl
 40
 
 #lvl_12-d
