@@ -405,3 +405,4 @@ Set,Naive Movement.Enabled,true
 10,ulx
 1,s
 1,dj
+Set,Naive Movement.Enabled,false

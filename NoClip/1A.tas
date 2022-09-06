@@ -73,7 +73,6 @@ Set,Naive Movement.Enabled,true
 1,gkr
 1,gjr
 1,gkr
-***
 15,ux
 1,jr
 40
@@ -257,7 +256,6 @@ EndRepeat
 2,gkr
 40
 
-***
 #lvl_9b
 14,ux
 13,jl
@@ -334,7 +332,6 @@ EndRepeat
 13,urx
 2,gjr
 8,r
-***
 1,jr
 1,gkr
 1,gjr

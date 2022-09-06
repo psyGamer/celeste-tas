@@ -1,10 +1,9 @@
 console load 3
 1
-Set,Naive Movement.Enabled,true
-1
 
 #Star
-60
+Set,Naive Movement.Enabled,true
+61
 
 #lvl_s0
 1,jr
@@ -138,7 +137,6 @@ Set,Naive Movement.Enabled,true
 1,gjr
 40
 
-***
 #lvl_07-a
 1,gjr
 1,r
@@ -287,6 +285,6 @@ Set,Naive Movement.Enabled,true
 40
 
 #lvl_roof07
-Set,Naive Movement.Enabled,false
 1,s
 1,dj
+Set,Naive Movement.Enabled,false

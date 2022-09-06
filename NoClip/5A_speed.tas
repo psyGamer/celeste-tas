@@ -1,0 +1,43 @@
+console load 5 4164 -292 130 0
+1
+
+Set,InfiniteStamina,true
+36
+***
+1,jr
+Repeat, 12
+1,gkr
+1,gjr
+EndRepeat
+1,gkr
+1,r
+Repeat, 2
+1,gkr
+1,gjr
+EndRepeat
+2,r
+Repeat, 3
+1,gkr
+1,gjr
+EndRepeat
+25,r
+40
+#
+1,jr
+Repeat, 6
+1,gkr
+1,gjr
+EndRepeat
+1,gkr
+Repeat, 14
+1,jr
+1,kr
+EndRepeat
+1,jr
+15,drx
+15,dc
+5,urx
+40
+#
+
+1000,r

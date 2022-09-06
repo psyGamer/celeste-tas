@@ -1,0 +1,10 @@
+console wipedebug
+1
+
+Set, SpeedrunClock, 2
+Read, TAS/NoClip/Prologue
+Read, TAS/NoClip/1A
+Read, TAS/NoClip/2A
+Read, TAS/NoClip/3A
+Read, TAS/NoClip/4A
+Read, TAS/NoClip/5A
