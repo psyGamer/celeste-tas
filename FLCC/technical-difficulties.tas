@@ -232,28 +232,36 @@ console load FLCC/1-Lobby/MACARONIBOI_TechnicalDifficulties
 4,r
 15,drx
 7,r
-44,l
-15,lx
-3,l
-15,ulc
-11,l
+36,dl
+4,dl
+24,lx
+18,ulc
+4,l
 15,ux
 6,l
-15,ux
-40,gu
+15,uc
+#44,l
+#15,lx
+#3,l
+#15,ulc
+#11,l
+#15,ux
+#6,l
+#15,ux
+36,gu
 4,r
-3,l
+3,r
 14,urx
-33,gur
+29,gur
 1,l
-5,r
-5,lz
+8,r
+4,rz
 2,jr
+2,l
 1,r
-1,jr
-4,r
+2,jr
 1,gkr
-17,dr
+17,r
 1,jr
 1,kr
 1,jr
@@ -265,7 +273,7 @@ console load FLCC/1-Lobby/MACARONIBOI_TechnicalDifficulties
 #lvl_TechDiff6
 1,jr
 20,r
-14,lz
+13,lz
 1,jr
 3,r
 17,dx
@@ -336,4 +344,4 @@ EndRepeat
 1,jl
 100
 
-ChapterTime: 0:48.450(2850)
+ChapterTime: 0:48.280(2840)
