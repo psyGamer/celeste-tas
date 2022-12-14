@@ -1,0 +1,338 @@
+console load FLCC/1-Lobby/MACARONIBOI_TechnicalDifficulties
+1
+
+#Start
+190
+
+#lvl_TechDiff1
+8,lz
+1,jr
+7,r
+5,jr
+12,urx
+2,gjr
+5,r
+1,jr
+10,r
+6,rz
+1,jr
+7,r
+40
+
+#lvl_TechDiff2
+1,jr
+4,r
+11,dlx
+1,jr
+3,r
+10,drx
+1,jr
+1,gkr
+6,gjr
+18,drx
+1,r
+5,jr
+4,gkr
+5,r
+1,jr
+12,r
+7,ux
+15,jr
+41,dr
+6,r
+14,drx
+5,jr
+15,r
+15,uz
+1,r
+22,jr
+6,gkr
+7,r
+7,rz
+1,jr
+6,r
+2,jr
+25,r
+11,urz
+4,l
+5,r
+9,gjr
+7,r
+17,dx
+11,dr
+41,drx
+6,rz
+1,jr
+2,r
+40
+
+#lvl_TechDiff3
+5,r
+1,l
+11,drx
+27,jr
+11,ux
+15,jr
+24,r
+14,rz
+5,jr
+15,drx
+31,jr
+24,rx
+30,urc
+15,drx
+15,r
+6,rz
+1,jr
+5,r
+2,l
+40
+
+#lvl_TechDiff4
+2,l
+1,n
+1,jr
+1,r
+7,drx
+1,jr
+7,r
+4,jr
+12,rz
+5,jr
+15,drx
+10,jr
+5,r
+1,jr
+10,dr
+13,dl
+12,dlx
+5,jl
+15,dlx
+11,jl
+5,l
+6,jl
+18,dl
+7,dr
+12,rx
+21,gdr
+1,dl
+15,dr
+10,dl
+10,dlx
+5,jr
+15,drx
+28,jr
+27,rx
+27,drc
+18,rx
+15,rc
+13,r
+15,urx
+8,r
+15,ux
+9,lz
+
+# 1st
+# 23,r
+# 15,rux
+# 11,r
+# 14
+# 9,gjr
+# 8,r
+# 7,gj
+# 1,jr
+# 2,l
+# 1
+# 15,uz
+# 5,l
+# 1,gjr
+# 2,jl
+# 3,jr
+# 7,r
+
+# 2nd
+# 18,r
+# 15,urx
+# 9
+# 16,r
+# 8,gjr
+# 1,jl
+# 4,l
+# 3,r
+# 7,gj
+# 1,r
+# 2,l
+# 16,uz
+# 5,l
+# 1,gjr
+# 2,jl
+# 4,j
+# 7,r
+
+19,r
+15,urx
+9
+16,r
+10,gjr
+4,r
+7,gj
+1,r
+3,l
+15,uz
+5,l
+1,gjr
+2,jl
+3,j
+7,r
+
+7,dlx
+1,jr
+6,r
+1,jr
+6,drx
+40
+
+#lvl_TechDiff5
+2,jr
+7,l
+13,urx
+1,gjr
+9,r
+1,jr
+14,urx
+43,gur
+10,r
+14,ux
+21,gur
+1,l
+9,urx
+21,gr
+1,r
+20,dr
+21,gd
+1,r
+4,l
+10,d
+19,dr
+18,rz
+15,ux
+11,uc
+59,gr
+5,d
+15,dr
+15,rx
+9,dr
+20,d
+5,r
+59
+5,l
+10
+10,drx
+1,jr
+24,r
+
+44,l
+15,lx
+3,l
+15,ulc
+11,l
+15,ux
+6,l
+15,ux
+40,gu
+4,r
+3,l
+14,urx
+33,gur
+1,l
+5,r
+5,lz
+2,jr
+1,r
+1,jr
+4,r
+1,gkr
+17,dr
+1,jr
+1,kr
+1,jr
+1,kr
+7,r
+1,jr
+40,jr
+
+#lvl_TechDiff6
+1,jr
+20,r
+14,lz
+1,jr
+3,r
+17,dx
+14,dl
+22,r
+34,dl
+15,lx
+7,ll
+26,r
+14,drx
+2,jr
+13,urx
+30,gr
+18,r
+7,dr
+15,rz
+14,l
+15,ux
+11,l
+5,urx
+25,gr
+1,l
+15,r
+21,gr
+1,r
+24,dr
+11,drx
+5,jr
+15,drx
+30,jr
+15,ux
+13,jr
+8,r
+3,jr
+21,r
+5,dr
+10,rz
+5,jr
+15,drx
+20,jr
+14,urz
+72,gur
+1,l
+4,r
+2,jr
+8,rz
+1,jr
+6,r
+40
+
+#lvl_TechDiff7
+1,jr
+1,jl
+8,rx
+4,gjr
+7,r
+5,jr
+5,r
+1,jr
+5,r
+26,rx
+15,dr
+42,dl
+Repeat, 280
+1,jl
+1,kl
+EndRepeat
+1,jl
+100
+
+ChapterTime: 0:48.552(2856)
