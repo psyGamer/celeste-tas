@@ -373,19 +373,27 @@ console load FLCC/1-Lobby/MACARONIBOI_TechnicalDifficulties
 1,jl
 8,rx
 4,gjr
-7,r
-5,jr
-5,r
+6,r
+1,l
 1,jr
-5,r
-26,rx
-15,dr
-42,dl
-Repeat, 280
+13,drx
+12,jr
+20,dl
+31,dr
+***
+16,drx
+Repeat, 23
 1,jl
 1,kl
 EndRepeat
+4,gjl
 1,jl
-100
+1,kl
+1,jl
+1,kl
+1,jl
+1,kl
+17,gjl
+1
 
-ChapterTime: 0:47.991(2823)
+ChapterTime: 0:47.974(2822)
