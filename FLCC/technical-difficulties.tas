@@ -223,6 +223,26 @@ console load FLCC/1-Lobby/MACARONIBOI_TechnicalDifficulties
 15,rx
 9,dr
 20,d
+
+# Swaggy, but death
+# 2,l
+# 3
+# 1,l
+# 1
+# 1,l
+# 1
+# 1,l
+# 1
+# 1,l
+# 1
+# 1,l
+# 1
+# 1,l
+# 2,r
+# 14,drz
+# 1,jl
+# 15,dlx
+
 5,r
 59
 5,l
@@ -271,6 +291,15 @@ console load FLCC/1-Lobby/MACARONIBOI_TechnicalDifficulties
 40,jr
 
 #lvl_TechDiff6
+# Possible but VERY percice
+# 14,d
+# 1,dl
+# 4,d
+# 14,dl
+# 2,l
+# 1,dr
+# Set, Player.Position.Y, -36.50003
+# 100,dr
 1,jr
 20,r
 13,lz
