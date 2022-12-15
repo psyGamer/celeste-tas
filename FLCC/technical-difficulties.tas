@@ -1,399 +1,316 @@
 console load FLCC/1-Lobby/MACARONIBOI_TechnicalDifficulties
-1
+   1
 
 #Start
-190
+ 190
 
 #lvl_TechDiff1
-8,lz
-1,jr
-7,r
-3,jr
-2,r
-12,urx
-1,gjr
-1,gkr
-15,r
-1,jr
-10,drx
-40
+   8,L,Z
+   1,R,J
+   7,R
+   3,R,J
+   2,R
+  12,R,U,X
+   1,R,J,G
+   1,R,K,G
+  15,R
+   1,R,J
+  10,R,D,X
+  40
 
 #lvl_TechDiff2
-1,jr
-4,r
-11,dlx
-1,jr
-3,r
-10,drx
-1,jr
-1,gkr
-6,gjr
-18,drx
-1,r
-5,jr
-4,gkr
-5,r
-1,jr
-12,r
-7,ux
-15,jr
-41,dr
-6,r
-14,drx
-5,jr
-15,r
-15,uz
-1,r
-22,jr
-6,gkr
-7,r
-7,rz
-1,jr
-6,r
-2,jr
-25,r
-11,urz
-4,l
-5,r
-9,gjr
-7,r
-***
-17,dx
-1,jr
-9,r
-37,drx
-6,rz
-1,jr
-2,r
-40
+   1,R,J
+   4,R
+  11,L,D,X
+   1,R,J
+   3,R
+  10,R,D,X
+   1,R,J
+   1,R,K,G
+   6,R,J,G
+  18,R,D,X
+   1,R
+   5,R,J
+   4,R,K,G
+   5,R
+   1,R,J
+  12,R
+   7,U,X
+  15,R,J
+  41,R,D
+   6,R
+  14,R,D,X
+   5,R,J
+  15,R
+  15,U,Z
+   1,R
+  22,R,J
+   6,R,K,G
+   7,R
+   7,R,Z
+   1,R,J
+   6,R
+   2,R,J
+  25,R
+  11,R,U,Z
+   4,L
+   5,R
+   9,R,J,G
+   7,R
+  17,D,X
+   1,R,J
+   9,R
+  37,R,D,X
+   6,R,Z
+   1,R,J
+   2,R
+  40
 
 #lvl_TechDiff3
-5,r
-1,l
-11,drx
-27,jr
-***
-11,ux
-15,jr
-24,r
-10,rz
-5,jr
-15,drx
-***
-12,jr
-5,r
-5,jr
-5,r
-8,r
-
-24,urx
-27,rc
-15,drx
-6,r
-8,dr
-6,rz
-1,jr
-5,r
-2,l
-40
+   5,R
+   1,L
+  11,R,D,X
+  27,R,J
+  11,U,X
+  15,R,J
+  24,R
+  10,R,Z
+   5,R,J
+  15,R,D,X
+  12,R,J
+   5,R
+   5,R,J
+   5,R
+   8,R
+  24,R,U,X
+  27,R,C
+  15,R,D,X
+   6,R
+   8,R,D
+   6,R,Z
+   1,R,J
+   5,R
+   2,L
+  40
 
 #lvl_TechDiff4
-2,l
-1,n
-1,jr
-2,r
-6,drx
-1,jr
-7,r
-4,jr
-12,rz
-5,jr
-15,drx
-10,jr
-5,r
-1,jr
-10,dr
-13,dl
-12,dlx
-5,jl
-15,dlx
-11,jl
-5,l
-6,jl
-18,dl
-7,dr
-12,rx
-21,gdr
-1,dl
-15,dr
-10,dl
-10,dlx
-5,jr
-15,drx
-28,jr
-27,rx
-27,drc
-18,rx
-15,rc
-13,r
-15,urx
-8,r
-15,ux
-9,lz
-
-# 1st
-# 23,r
-# 15,rux
-# 11,r
-# 14
-# 9,gjr
-# 8,r
-# 7,gj
-# 1,jr
-# 2,l
-# 1
-# 15,uz
-# 5,l
-# 1,gjr
-# 2,jl
-# 3,jr
-# 7,r
-
-# 2nd
-# 18,r
-# 15,urx
-# 9
-# 16,r
-# 8,gjr
-# 1,jl
-# 4,l
-# 3,r
-# 7,gj
-# 1,r
-# 2,l
-# 16,uz
-# 5,l
-# 1,gjr
-# 2,jl
-# 4,j
-# 7,r
-
-19,r
-15,urx
-9
-16,r
-10,gjr
-4,r
-7,gj
-1,r
-3,l
-15,uz
-5,l
-1,gjr
-2,jl
-3,j
-7,r
-
-7,dlx
-1,jr
-6,r
-1,jr
-6,drx
-40
+   2,L
+   1,N
+   1,R,J
+   2,R
+   6,R,D,X
+   1,R,J
+   7,R
+   4,R,J
+  12,R,Z
+   5,R,J
+  15,R,D,X
+  10,R,J
+   5,R
+   1,R,J
+  10,R,D
+  13,L,D
+  12,L,D,X
+   5,L,J
+  15,L,D,X
+  11,L,J
+   5,L
+   6,L,J
+  18,L,D
+   7,R,D
+  12,R,X
+  21,R,D,G
+   1,L,D
+  15,R,D
+  10,L,D
+  10,L,D,X
+   5,R,J
+  15,R,D,X
+  28,R,J
+  27,R,X
+  27,R,D,C
+  18,R,X
+  15,R,C
+  13,R
+  15,R,U,X
+   8,R
+  15,U,X
+   9,L,Z
+  19,R
+  15,R,U,X
+   9
+  16,R
+  10,R,J,G
+   4,R
+   7,J,G
+   1,R
+   3,L
+  15,U,Z
+   5,L
+   1,R,J,G
+   2,L,J
+   3,J
+   7,R
+   7,L,D,X
+   1,R,J
+   6,R
+   1,R,J
+   6,R,D,X
+  40
 
 #lvl_TechDiff5
-2,jr
-7,l
-13,urx
-1,gjr
-9,r
-1,jr
-14,urx
-43,gur
-10,r
-14,ux
-21,gur
-1,l
-9,urx
-21,gr
-1,r
-20,dr
-21,gd
-1,r
-4,l
-10,d
-19,dr
-18,rz
-15,ux
-11,uc
-59,gr
-5,d
-15,dr
-15,rx
-9,dr
-20,d
-
-# Swaggy, but death
-# 2,l
-# 3
-# 1,l
-# 1
-# 1,l
-# 1
-# 1,l
-# 1
-# 1,l
-# 1
-# 1,l
-# 1
-# 1,l
-# 2,r
-# 14,drz
-# 1,jl
-# 15,dlx
-
-5,r
-59
-5,l
-5
-10,drx
-1,jr
-4,r
-15,drx
-7,r
-36,dl
-4,dl
-24,lx
-18,ulc
-4,l
-15,ux
-6,l
-15,uc
-#44,l
-#15,lx
-#3,l
-#15,ulc
-#11,l
-#15,ux
-#6,l
-#15,ux
-36,gu
-4,r
-3,r
-14,urx
-29,gur
-1,l
-8,r
-4,rz
-2,jr
-2,l
-1,r
-2,jr
-1,gkr
-17,r
-1,jr
-1,kr
-1,jr
-1,kr
-7,r
-1,jr
-40,jr
+   2,R,J
+   7,L
+  13,R,U,X
+   1,R,J,G
+   9,R
+   1,R,J
+  14,R,U,X
+  43,R,U,G
+  10,R
+  14,U,X
+  21,R,U,G
+   1,L
+   9,R,U,X
+  21,R,G
+   1,R
+  20,R,D
+  21,D,G
+   1,R
+   4,L
+  10,D
+  19,R,D
+  18,R,Z
+  15,U,X
+  11,U,C
+  59,R,G
+   5,D
+  15,R,D
+  15,R,X
+   9,R,D
+  20,D
+   5,R
+  59
+   5,L
+   5
+  10,R,D,X
+   1,R,J
+   4,R
+  15,R,D,X
+   7,R
+  36,L,D
+   4,L,D
+  24,L,X
+  18,L,U,C
+   4,L
+  15,U,X
+   6,L
+  15,U,C
+  36,U,G
+   4,R
+   3,R
+  14,R,U,X
+  29,R,U,G
+   1,L
+   8,R
+   4,R,Z
+   2,R,J
+   2,L
+   1,R
+   2,R,J
+   1,R,K,G
+  17,R
+   1,R,J
+   1,R,K
+   1,R,J
+   1,R,K
+   7,R
+   1,R,J
+  40,R,J
 
 #lvl_TechDiff6
-# Possible but VERY percice
-# 14,d
-# 1,dl
-# 4,d
-# 14,dl
-# 2,l
-# 1,dr
-# Set, Player.Position.Y, -36.50003
-# 100,dr
-1,jr
-20,r
-13,lz
-1,jr
-3,r
-17,dx
-14,dl
-22,r
-35,dl
-15,lx
-7,l
-24,r
-14,drx
-1,jr
-13,urz
-30,gr
-18,r
-7,dr
-15,rz
-14,l
-15,ux
-12,l
-5,urx
-25,gr
-1,l
-16,r
-21,gr
-***
-1,r
-24,dr
-10,drx
-5,jr
-15,drx
-30,jr
-15,ux
-13,jr
-8,r
-3,jr
-21,r
-5,dr
-10,rz
-5,jr
-15,drx
-19,jr
-14,urz
-***
-50,gr
-5,gur
-7,gr
-1,l
-8,r
-3,jr
-4,gkr
-1,r
-6,rz
-1,jr
-6,r
-40
+   1,R,J
+  20,R
+  13,L,Z
+   1,R,J
+   3,R
+  17,D,X
+  14,L,D
+  22,R
+  35,L,D
+  15,L,X
+   7,L
+  24,R
+  14,R,D,X
+   1,R,J
+  13,R,U,Z
+  30,R,G
+  18,R
+   7,R,D
+  15,R,Z
+  14,L
+  15,U,X
+  12,L
+   5,R,U,X
+  25,R,G
+   1,L
+  16,R
+  21,R,G
+   1,R
+  24,R,D
+  10,R,D,X
+   5,R,J
+  15,R,D,X
+  30,R,J
+  15,U,X
+  13,R,J
+   8,R
+   3,R,J
+  21,R
+   5,R,D
+  10,R,Z
+   5,R,J
+  15,R,D,X
+  19,R,J
+  14,R,U,Z
+  50,R,G
+   5,R,U,G
+   7,R,G
+   1,L
+   8,R
+   3,R,J
+   4,R,K,G
+   1,R
+   6,R,Z
+   1,R,J
+   6,R
+  40
 
 #lvl_TechDiff7
-1,jr
-1,jl
-8,rx
-4,gjr
-6,r
-1,l
-1,jr
-13,drx
-12,jr
-20,dl
-31,dr
-***
-16,drx
+   1,R,J
+   1,L,J
+   8,R,X
+   4,R,J,G
+   6,R
+   1,L
+   1,R,J
+  13,R,D,X
+  12,R,J
+  20,L,D
+  31,R,D
+  16,R,D,X
 Repeat, 23
-1,jl
-1,kl
+   1,L,J
+   1,L,K
 EndRepeat
-4,gjl
-1,jl
-1,kl
-1,jl
-1,kl
-1,jl
-1,kl
-17,gjl
-1
+   4,L,J,G
+   1,L,J
+   1,L,K
+   1,L,J
+   1,L,K
+   1,L,J
+   1,L,K
+  17,L,J,G
+   1
 
 ChapterTime: 0:47.974(2822)
