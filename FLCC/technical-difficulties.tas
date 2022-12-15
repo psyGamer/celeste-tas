@@ -60,8 +60,7 @@ console load FLCC/1-Lobby/MACARONIBOI_TechnicalDifficulties
 ***
 17,dx
 1,jr
-4,r
-5,r
+9,r
 37,drx
 6,rz
 1,jr
@@ -73,17 +72,25 @@ console load FLCC/1-Lobby/MACARONIBOI_TechnicalDifficulties
 1,l
 11,drx
 27,jr
+***
 11,ux
 15,jr
 24,r
-14,rz
+10,rz
 5,jr
 15,drx
-31,jr
-24,rx
-30,urc
+***
+12,jr
+5,r
+5,jr
+5,r
+8,r
+
+24,urx
+27,rc
 15,drx
-15,r
+6,r
+8,dr
 6,rz
 1,jr
 5,r
@@ -375,4 +382,4 @@ EndRepeat
 1,jl
 100
 
-ChapterTime: 0:48.127(2831)
+ChapterTime: 0:48.059(2827)
