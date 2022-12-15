@@ -8,20 +8,21 @@ console load FLCC/1-Lobby/MACARONIBOI_TechnicalDifficulties
 8,lz
 1,jr
 7,r
-5,jr
+3,jr
+2,r
 12,urx
-2,gjr
-5,r
-1,jr
-10,r
+1,gjr
+1,gkr
+15,r
 6,rz
 1,jr
-7,r
+6,r
 40
 
 #lvl_TechDiff2
+1,r
 1,jr
-4,r
+3,r
 11,dlx
 1,jr
 3,r
@@ -373,4 +374,4 @@ EndRepeat
 1,jl
 100
 
-ChapterTime: 0:48.280(2840)
+ChapterTime: 0:48.246(2838)
