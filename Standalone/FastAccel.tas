@@ -1,0 +1,20 @@
+console load FastAccel
+1
+
+#Start
+190
+
+#lvl_0
+5,rz
+Repeat, 24
+1,jr
+1,kr
+EndRepeat
+***
+1,jr
+2,kr
+
+
+100,drx
+
+10000

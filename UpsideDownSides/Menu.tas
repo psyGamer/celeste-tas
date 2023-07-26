@@ -1,0 +1,16 @@
+Unsafe
+
+Read, TAS/NewFile, s_Filename, m_Filename
+Read, TAS/FileNames, s_eniledam, e_eniledam
+Read, TAS/NewFile, m_Filename, e_Filename
+
+
+Read, TAS/NewFile, s_Mapselect, m_Mapselect
+1,r
+1,f,90
+1,r
+Read, TAS/NewFile, m_Mapselect, e_Mapselect
+.
+.Read, TAS/NewFile, Start
+.
+.Read, TAS/UpsideDownSides/TheUpSide, Start

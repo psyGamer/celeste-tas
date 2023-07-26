@@ -1,0 +1,1395 @@
+--------
+ COMMON
+--------
+
+console evalcs Celeste.Celeste.Scene.TimeActive += Celeste.Celeste.DeltaTime
+
+AnalogMode Square
+1,F,
+AnalogMode Percise
+
+Invoke, Player.MoveV, -10
+Set, Invincible, true
+Set, Invincible, false
+
+StunPauseMode Simulate
+
+StunPause Simulate
+EndStunPause
+SkipInput 3 1
+
+Set, Player.Position, 5000, 580
+Set, Player.Position, 8113, 720
+
+Set, Player.Position, 12Set, Player.Position, 12177, 1302352, 1192
+Set, Player.Speed, 0, 0
+Set, Player.Ducking, true
+Invoke, Player.MoveV, -8
+Invoke, Player.MoveH, -0.1
+
+Invoke, Player.MoveH, 3
+
+Top Route not 
+
+Coin Route
+Coinless Route
+
+Due to corner-boost-block-jank when coming from left, you can only do 1 cb
+
+7936, 732, 7951, 747
+7973, 714, 7980, 721
+8037, 705, 8044, 712
+8074, 704, 8081, 711
+
+StartExportGameInfo infodump.txt
+   1
+FinishExportGameInfo
+
+This would cut about 5 pauses but doesnt want to line up
+Why are there ice walls
+
+Spinner Cycle
+
+
+----------
+ MAINGAME
+----------
+
+
+-338f 9D: 9:03.524(31972) -> 8:57.778(31634)
+-330f [g-06 + h-00b]: It was about time for someone to do this
+
+Lightning in j-14b hasn't drifted yet, thankfully resync saves time.
+-9f [j-9]: Lightning cycle, start pausing frame earlier, moved pause from j-14 to here for another stun
++1f [j-14]: Stall a frame for cycles to align in the next room
+
+Might be able to skip the feather in h-00b but couldn't get it to work
+
+
+-------------
+ FLCC Collab
+-------------
+
+
+-316f Geometrical Mayham: 0:41.786(2458) -> 0:36.414(2142)
+-9f [GM1]: Downright instead of right an fall
++1f [GM2]: Resync
+-27f [GM3]: Get WAY more speed from last zipper
+-302f [GM4]: Skip basically the entire room, pause seems skippable but couldn't get it to work
++20f [GM5]: Resync
++1f: Spinner cycle
+
+All ideas were taken from this other TAS: https://www.bilibili.com/video/BV1gg411s74E/
+That might still be faster for some things but I haven't looked past GM5
+
++6f Difficulty Spike: 0:49.215(2895) -> 0:49.317(2901)
+Corner boost blocks and apparently lightning box cycles too
+
+
+----------------
+ STRAWBERRY JAM
+----------------
+
+
+Just barely doesnt reach the platform
+2f faster but need to wait for the rose
+
+Stun-pausing is too slow
+Potential skip of going above spinners, couldn't quite make it
+
+-f Rose Garden: 1:24.371(4963) -> 1:19.696(4688)
+-14f [q00 + q01]: Get more speed in q00 + slightly adjusted rose movement in q01
+-1f [q02]: Let of rose earlier 
+-33f [q06]: Use more speed from prev room + grab rose faster after key gate (APPR 49f)
+-21f [q04]: Go thigher around spinners + backboost (APPR 15f)
+
+-1f [q05]: Hyper for a bit more height at start
+-6f [q05]: Prioritize horizontal over vertical movement after first spring
+-7f [q05]: Better movement between springs 2 and 3
+-161f [q05]: Demo through spinners with 2nd rose
+
+-11f [q03]: Throw rose further right to active coin earlier
+(NOT WORKING -2f [q03]: Gultra cancel with key gate)
+-8f [q03]: Don't fly so high with the rose at the end (MAYBE -7f?)
++1f [q07]: Resync
+-3f [q07]: Hit spring after demo earlier
+
+-275f Rose Garden: 1:24.371(4963) -> 1:19.696(4688)
+-14f [q00 + q01]: Get more speed in q00 + slightly adjusted rose movement in q01
+-1f [q02]: Let of rose earlier 
+-49f [q06]: Use more speed from prev room + grab rose faster after key gate
+-15f [q04]: Go thigher around spinners + backboost
+-175f [q05]: -1f: Hyper for a bit more height at start, -6f: Prioritize horizontal over vertical movement after first spring,
+             -7f: Better movement between springs 2 and 3, -161f: Demo through spinners with 2nd rose
+-19f [q03]: -11f: Throw rose further right to active coin earlier, -8f: Don't fly so high with the rose at the end
+-2f [q07]: +1f Resync from prev room, -3f: Hit spring after demo earlier
+
+It seems possible to go over the spinners in q08 but couldn't get it to work, left some snippets in the file.
+
+
+
+-134f Starlight Station: 1:51.435(6555) -> 1:49.157(6421)
+-121f [b03]: https://discord.com/channels/403698615446536203/923103459354480691/1080339768413532270
+-14f [brys2]: https://discord.com/channels/403698615446536203/923103459354480691/1080300348540981388
++1f: Spinner cycle
+
+Double RTA strat :happylandeline:
+
+
+-149f Midnight Monsoon: 1:40.266(5898) -> 1:37.733(5749)
+-146f [3]: https://discord.com/channels/403698615446536203/923103459354480691/1081475521596096552
+-3f [4]: Spinner unload cycle
+
+4:23.228(15484)
+4:22.633(15449)
+
+-161f World Abyss: 4:25.370(15610) -> 4:22.633(15449)
+[big-3]: Start multiboost sooner + stun through spinners
+
+
+
+-248f Rightside-Down Caverns: 1:20.648(4744) -> 1:16.432(4496)
+-4f [intro_SJ]: Get a bit more speed at start
+-5f [intro_SJ]: Better upwards movement
+-14f [Vamp_2]: Cut bhop gultra at start
+-9f [Vamp_2]: Better movement after demo
+-83f [Vamp_2]: Skip going up, then down at end
+-13f [Vamp_3]: Dont gultra, just use speed from dultra
+-1f [Vamp_3]: Land earlier at end
+-2f [Vamp_3]: 6f bhop + normal ultra
+-7f [Vamp_4]: Dont gultra before first demo
+-1f [Vamp_4]: At end subpx-manip for corner correction
+-2f [Vamp_4]: Slightly better movement at end
+-5f [Vamp_5]: Corner correct to hit spring sooner
+-5f [Vamp_5 + Vamp_6]: Dultra at end of 5
+-1f [Vamp_6]: Spiked corner correction
+-1f [Vamp_8]: Land a frame sooner after floaty block
+-14f [Vamp_9]: Duckjump from prev room into spring
+-2f [Vamp_9]: Start wavedash sooner
+-79f [Vamp_9 + Vamp_Final] nyoom
+
+-248f Rightside-Down Caverns: 1:20.648(4744) -> 1:16.432(4496)
+-9f [intro_SJ]: -4f: Get a bit more speed at start, -5f: Better upwards movement
+-106 [Vamp_2]: -14f: Cut bhop gultra at start, -9f: Better movement after demo, -83f: Skip going up, then down at end
+-16f [Vamp_3]: -13f: Dont gultra, just use speed from dultra, -1f: Land earlier at end, -2f: 6f bhop + normal ultra
+-10f [Vamp_4]: -7f: Dont gultra before first demo, -1f: At end subpx-manip for corner correction, -2f: Slightly better movement at end
+-5f [Vamp_5]: Corner correct to hit spring sooner
+-5f [Vamp_5 + Vamp_6]: Dultra at end of 5
+-1f [Vamp_6]: Spiked corner correction
+-1f [Vamp_8]: Land a frame sooner after floaty block
+-16f [Vamp_9]: -14f: Duckjump from prev room into spring, -2f: Start wavedash sooner
+-79f [Vamp_9 + Vamp_Final] nyoom
+
+Video ended up a _bit_ laggier than expected.
+
+-4-5-14-9-83-13-1-2-7-1-2-5-5-1-1-14-2-82
+
+
+-6f [a-intro]: Get more speed at start + better wallbounce
+-4f [big-1 + chill-0 (0)]: Get more speed at end of big-1 to activate block in chill-0 earlier
+-11f [big-2]: Cut a pause
+-7f [big-2]: Better landing
+-2f [chill-0 (1)]: Better fall at end
+-4f [big-3]: Better movement at start
+-10f [big-3]: Hit spring better after ultra
+
+-36f World Abyss: 3:37.209(12777) -> 3:36.597(12741)
+-4f [big-1 + chill-0 (0)]: Get more speed at end of big-1 to activate block in chill-0 earlier
++1f: Spinner cycle
+-1f [chill-0 (1)]: Better fall at end
+-32f [big-3]: -14f: Better start + hit spring better, -19f: Some improvemnts to first moving block section, +1f: Lazy resync water boost
+
+console start_recording
+console stop_recording
+
+
+
+-19f Supernautica: 0:51.850(3050) -> 0:51.527(3031)
+-4f [LegS-4]: -3f: Cancel transition jump for faster hyper, -1f: Better pipe entry #1, -1f: Pipe #2
+-15f [LegS-6]: -1f Slightly better jelly movement, -11f Cut a pause at the start, -2f Better jump across the large gap, -1f Transition sooner (better y-subpx?)
+
+System.Runtime.InteropServices.NativeLibrary.GetExport(new IntPtr(1), "INVOKE_ldcapture_StartRecording");
+System.Runtime.InteropServices.NativeLibrary.GetExport(new IntPtr(1), "INVOKE_ldcapture_StopRecording");
+
+-63f Drifting Deep: 3:02.767(10751) -> 3:01.696(10688)
+-64f [a-03]: -2f: Use movement between bubble and feather from my alt routes file, -2f: Better feather, partially from alt routes file
+             -59f: Demo through spinners and break block for shortcut with feather (video), -1f: Better bubble entry
++1f: Spinner cycle
+Also fixed FNA desync from bubble + feather
+Recorded with ldcapture :eyes: (no sound since that still has a few artifacts)
+
+StunPause Simulate
+EndStunPause
+SkipInput 3 1
+
+Spinner Cycle
+
+Set, SilverBerry[a-00:302].Position, -500, 1000
+
+Storm Runner draft in 1:33.364(5492)
+Finally got ldcapture (kkapture alternative for linux) working properly with FMOD, which is why this draft took so long.
+Atleast there will never be lag again in recordings.
+Anyway, neat little map, cloud/jelly movement ~~aka the entire map~~ should still be optimizable by a bit.
+
+https://youtu.be/IRTesqDne8Y
+
+-10f Narrow Hollows: 1:20.410(4730) -> 1:20.240(4720)
+[1]: Dash into cb instead of dcb + dash
+
+
+-5f Treehive: 1:04.668(3804) -> 1:04.583(3799)
+-4f [skeleton_03]: Wait at the top of the zipper for earlier activation
+-1f [skeleton_outro]: Get a bit more speed after 2nd dream block
+
+
+-4f Treehive: 1:04.243(3779) -> 1:04.175(3775)
+-1f [skeleton_00]: Upright demo into dreamblock to spend less time in it
+-3f [skeleton_02]: Hyper bhop at the start
+
+-9f Belated Valentines Day: 0:53.261(3133) -> 0:53.108(3124)
+-4f [1-e + 1-f]: Better room exit + resync
+-2f [1-f]: Better landing + resync
+-1f [1-g]: Hit heart faster
+-1f [1-h]: Better wallbounce at end
+-1f [2-c]: Better landing at end
+
+Also fixed inputs
+
+
+-4f Lost Woods: 0:54.281(3193) -> 0:54.213(3189)
+-3f [oppen_intro]: Get a bit more speed at the start
+-1f [lvl_oppen_1b(key2route)]: Updash sooner with speed from start
+
+Took only 3 weeks for someone to find an improvement
+
+-105f Garden of Khu'tara: 1:30.729(5337) -> 1:28.944(5232)
+-6f [DanTKO_Intro + DanTKO_01]: Get more speed from slope
+-1f [DanTKO_01]: Updash into portal for more downward speed
+-1f [DanTKO_02]: Better water boost
+-1f [DanTKO_03 + DanTKO_04]: Get a cb from slope at end
+-1f [DanTKO_05]: Start dash sooner on last hyper booster
+-2f [DanTKO_05]: Better landing at end
+-15f [DanTKO_06]: Cb after first ultra + rcb after second for more height
+-18f [DanTKO_06]: Skip left coin and with spikefall
+-15f [DanTKO_06b]: Preserve speed from previous room
+-28f [DanTKO_07]: Near the end, keep speed from hyper + forward wavedash instead of reverse
+-16f [DanTKO_outro]: Hit first delayed ultra
+-1f: ???
+
+StunPauseMode Simulate
+
+-29f Fractured Iridescence: 0:49.623(2919) -> 0:49.130(2890)
+-1f [a0 + a1]: Hyper bhop before transition
+-8f [a2]: Slightly better multiboost
+-2f [a3]: Better jelly movement
+-15f [a3]: Better multiboost at end
++1f [a4]: Resync
+-2f [a4]: Better multiboost at end
+-2f: Spinner cycle
+
+
+-209f Java's Crypt: 0:55.947(3291) -> 0:52.394(3082)
+-195f [0 + 1]: "Javascrypt OutOfBoundsException" (wrong warp to skip most of first room) (https://discord.com/channels/403698615446536203/1074148152317321316/1086697393799581716)
+-8f [2 + 3]: Active potion in 2 with wavedash for more speed into 3
+-6f [5 + 6]: Build up more speed while waiting for door to open
+
+
+(1000th commit???)
+-2f Superstructure: 1:19.611(4683) -> 1:19.577(4681)
+[end]: Start ultra chain with demohyper
+
+-47f Vertigo: 0:53.414(3142) -> 0:52.615(3095)
+-8f [Evilleafy-01]: Hyper at start + cornercorrected wallbounce
+-16f [Evilleafy-02 + Evilleafy-03a]: Reworked end of 2 a bit and redid room 3
+-1f [Evilleafy-06]: Better exit
+-5f [Evilleafy-07]: Don't grab wall when going over last wall
+-12f [Evilleafy-04]: Jump out of wallbounce sooner
+-5f [Evilleafy-09]: Wallbounce optimizations
+
+-16f Pufferfish Transportation Co.: 1:13.066(4298) -> 1:12.794(4282)
+-1f Spinner cycle
+-1f [RG2-0]: Setup 6f bhop out of hyper -> enter cutscene further right
+(Adjusted stun in RG2-1 to avoid 3f cycle lock)
+-14f [RG2-2]: Gultra into puffer for more speed + cut a pause (@Wojowu)
+
+-33f Pufferfish Transportation Co.: 1:12.794(4282) -> 1:12.233(4249)
+-1f [RG2-8]: Better landing at end
+-32f [RG2-9]: Ultra onto moveblock instead of setting up speed on it
+
+-25f Pufferfish Transportation Co.:1:12.233(4249) -> 1:11.808(4224)
++1f [RG2-8]: Dash a frame longer in this room to active move block sooner in next room + more speed bc bhop
+-24f [RG2-9]: -2f More speed, -22f Cut 2 pauses from being a tiny bit faster
+-2f: Spinner cycle
+
+-0f Thinking with Portals: 0:54.179(3187)
+-0f [a-01]: 6f bhop
+-3f [a-02]: Don't jump so high with the box
++3f: Powerbox Cycle
+
+Only 57f left until the next cycle
+
+-3f Frosted Fragments: 1:44.771(6163) -> 1:44.720(6160)
+-2f [a3v2]: dcb after fall to reach wall sooner
+-1f [a3v2]: Hyper bhop after climb
+
+
+
+-316f Golden Alleyway: 1:44.618(6154) -> 1:39.246(5838)
+
+-1f [a_01]: Demohyper at start
+-3f [a_01]: Optimize better for height
+-8f [a_01]: Leave move block sooner
+-4f [a_01]: Optimize end
+
+-1f [a_02]: Gultra longer
+-12f [a_02]: Upright -> demohyper instead of up -> wavedash
+-5f [a_02]: Don't spend too much time gaining height while retaining
+-23f [a_02]: 4f bhop off moveblock to skip platform
+-2f [a_02]: Better multiboost + better landing
+
+-5f [a_04]: Hyper soon -> don't get pushed down by block that much
+-12f [a_04]: 4f Hyper bhop
+-12f [a_04]: 6f Hyper bhop at end
+
+-6f [a_05]: Cpop wallbounce instead of upright demo rcb
+-10f [a_05]: Dash an extra time to get block into good position (this dash can probably be moved to a better position)
+-12f [a_05]: Conserve more speed past gate
+-19f [a_05]: Better stamina management to allow for 4th cb
+-2f [a_05]: Better exit
+
+-6f [a_06]: Grabless cb + better landing after demo
+-12f [a_06]: 4f Hyper bhop
+-3f [a_06]: Get pushed down by closing the gate
+-1f [a_06]: Wait less behind gate
+-1f [a_06]: Wait less before jumping
+
+-8f [b_01]: Neutral rcb wallboost instead of walljump + wall further before gate
+-27f [b_01]: Only use 1 feather
+-1f [b_01]: Corner correction at end
+-2f [b_01]: Uncrouch at end for bigger hitbox
+
+-5f [b_02]: Featherline
+-17f [b_02]: Super into feather instead of downleft walljump
+-3f [b_02]: Better landing after wallbounce
+-2f [b_02]: Better exit
+
+-10f [b_03]: 4f Hyper bhop
+-7f [b_03]: Featherline + upright at end
+-2f [b_03]: Dash cb out of feather
+-6f [b_03]: Cut upright into spring
+-4f [b_03]: Better climb at end
+-1f [b_03]: Hyper bhop gultra at end
+
+-5f [b_04]: Use more speed from prev room
+-2f [b_04]: Featherline
+-2f [b_04]: Don't wait behind gate
+-7f [b_04]: Optimize height better on moveblock
+-7f [b_04]: Start ultra chain earlier + crouch jump to bonk heigher
+-8f [b_04]: Proper dcb after climb
+-25f [b_04]: Featherline
+
+-6f: Somewhere
++1f: Spinner cycle
+
+-7f Cave of the Crimson Sky: 0:53.754(3162) -> 0:53.635(3155)
+-1f [cotcs-0]: Don't spend less frames while retained
+-4f [cotcs-1]: Downright sooner after waiting for gate
+-1f [cotcs-6]: Start moving earlier
+-1f: Spinner cycle
+
+-66f Drifting Deep: 3:00.778(10634) -> 2:59.656(10568)
+-5f [a-05]: Corner-Boost-Block-Dejankification
+-22f [a-05]: Skip bubble before dcb
+-39f [a-06]: Hyper instead of rightdash during stun
+
+Sub 3 minutes :3dgrineline:
+
+-33f Starry Ruins: 0:43.792(2576) -> 0:43.231(2543)
+-6f [8 + 9]: Get another liftboost from zipper, have to slow down for 9
+-2f [9]: Bhop on zipper
+-2f [9]: Bhop at end
+-1f [10]: Neutral rcb at start
+-21f [10]: 6f Bhop, use portal instead of demo, gultra cancel
+-1f [10]: Get a bit more speed before heart
+
+-17f Starry Ruins: 0:43.231(2543) -> 0:42.942(2526)
+-14f [5 + 6]: Setup dultra on second platform instead of first one
+-1f [7 + 8]: Get a bit more speed at end of 7
+-2f [9]: Better demo through spinners
+
+-6f Beginner Heartside: 4:32.153(16009) -> 4:32.051(16003)
+-2f [cp1_heartside_intro]: Start waterboost with hyper
+-2f [flag-16]: Better setup for wavedash
+-1f [flag-14 + flag-13]: Dultra earlier at end of 13
+-1f: Spinner cycle
+
+-558f Stellar Odyssey: 2:01.431(7143) -> 1:51.945(6585)
+[a-4 + a-5]: Skip majority of end of a-4 with multiboost + stun
+
+Synced improvement
+Probably possible to do a better resync in a-5 with the speed and by updashing to exit the spinners sooner (see Firethief's unsynced file: https://discord.com/channels/403698615446536203/1074148152317321316/1091846773468844103)
+
+-11f Switchtube Vista: 2:03.590(7270) -> 2:03.403(7259)
+Clear pipe resync:
+Clear pipes now reset subpixels which required some setups to change
+However many pipes also ended a frame earlier
+
+-0f Intermediate Heartside: 4:38.630(16390)
+[flag-8]: Clear pipe subpx resync
+
+-42f Stellar Odyssey: 1:51.894(6582) -> 1:51.180(6540)
+-22f [a-00-start]: Better setup for moon boost
+-22f [a-01]: Activate move earlier, slower movement but you have to wait anyway
++2f: Spinner cycle
+
+
+-294f Golden Dawn: 1:23.555(4915) -> 1:18.557(4621)
+-1f [A0]: Abuse corner-correction at start for more distance
+-1f [A4]: Better landing after jelly
+-23f [A5]: Activate move block earlier, slower movement but you have to wait anyway
+-3f [A6]: Activate move block earlier
+-262f [A6]: 38 Pauses :destaireline: (Video)
+-4f [A7]: Micro-optimizations before heart
+
+-7f The Tower: 0:49.759(2927) -> 0:49.640(2920)
+-6f [lvl05]: Wait longer after spring and wallbounce
+-1f [lvl03]: Smaller walljump after upright
+
+-759f Drifting Deep: 2:58.245(10485) -> 2:45.342(9726)
+-41f [a-02]: Cut the stun
+-2f [a-03]: Better start into first bubble
+-9f [a-03]: Climbjump into feather instead of wallbounce
+-24f [a-04]: Faster bubble entry after fall
+-24f [a-04]: Better stun pause
+-2f: a-04 Spinner cycle
+-22f [a-05]: Maintain speed collecting first coin
+-3f [a-06]: Faster bubble entry before first stun
+-46f [a-06]: Go up before first stun for faster fallspeed -> less pauses
+-1f [a-06]: Better movement between stuns
+-162f [a-07]: Better stun route
+-5f [a-08]: Better movememt into first bubble
+-8f [a-08]: Wallbounce instead of upright rev-super
+-27f [a-08]: Do intended
+-11f [a-08]: DR U instead of D UR U
+-23f [a-08]: Better movement between bubbles and dreamblock
+-62f [a-08]: Skip feather
+-10f [a-09]: Rightdemo down through dream blocks
+-34f [a-09]: Skip right dreamblock after feather
+-2f [a-09 + a-10]: Gultra instead of dultra
+-18f [a-10]: Use red bubble instead of dreamblock in the middle
+-12f [a-10]: Cut rev-super since it's no longer needed to trigger block
+-194f [a-10]: Demo to bubble + deathwarp instead of stun
+-17f [a-10 + a-11]: Better ending
+
+This is ~4s faster than Cocoa's TAS.
+The ghost is the previous version of our TAS. It doesn't account for stuns which is why it's sometimes ahead.
+https://youtu.be/qEDgcJfqgtM (Watch at 2x speed since I recorded at 0.5x speed for better performance)
+
+
+-60f Frosted Fragments: 1:42.187(6011) -> 1:41.167(5951)
+-61f [a9v2]: Skip using pushblock and waiting for bubble to respawn and just get the crystal directly
++1f: Spinner cycle
+
+-6f Frosted Fragments: 1:41.167(5951) -> 1:41.065(5945)
+-4f [a9v2]: Activate spring earlier
+-2f: Spinner cycle
+
+-35f Drifting Deep: 2:45.257(9721) -> 2:44.662(9686)
+-1f [a-07]: Get a bit more speed from bhop to dash earlier at end
+-34f [a-08]: You've heart of strats from #mod_strats, but now get ready for strats from YouTube comments :catstare: (You don't need any of them)
+
+
+-221f Skyline Usurper: 2:09.795(7635) -> 2:06.038(7414)
+-1f [INTRO1]: Better PDJ
+-33f [a04]: Don't wait at end + actual 6f bhop
+-2f [a05]: 6f bhop at end
+-1f [a06]: Resync
+-26f [a06]: Better pipe entry #1
+-2f [a06]: Better pipe entry #2
+-94f [a06]: Way faster setup for propeller to recharge
+-58f [a07]: Ditch propeller way earlier at end
+
+Encoding of a06 since that had the most improvements
+
+-38f Skyline Usurper: 2:06.038(7414) -> 2:05.392(7376)
+[a03]: Various improvements
+
+-289f Skyline Usurper: 2:05.392(7376) -> 2:00.581(7093)
+-6f [INTRO2]: Better propeller charge timings
+-2f [INTRO2]: Better alignment with switchgate to exit sooner
+-6f [INTRO2]: Better movement in second propeller part
+-2f [a01]: Throw the propeller earlier in the pipe at the start
+-3f [a01]: Don't jump at end for more height
+-2f [a01b]: Better movement before gultra-chain
++1f [a02]: Resync
+-28f [a02]: Use more charges since you refill them anyway + preserve dash for pipe entry
+-74f [a02]: Phyper with preserved dash crystal
+-17f [a02]: Use better propeller alignment + smuggle it into bottom pipe
+-5f [a02]: Better movement to next pipe
+-2f [a02]: Better pipe entry at end
+-3f [a04]: Better PDJ at start
+-10f [a04]: Wait on the pipe instead of getting doubledash crystal
+-9f [a04]: Get further to the left while waiting for propeller at end
+-4f [a05]: Bhop at start
+-5f [a05]: Throw propeller better in pipe
+-35f [a05]: Overall better movement at end
+-130f [a06new]: Completely new route which skips most of the slow parts
+-4f [a07]: Better bino storage setup
+
+-16f [a07]: Throw propeller better in pipe + better movement after that
+-2f [a07]: Grab propeller near end earlier
+-1f [a07]: Enter pipe earlier
+
+-379f Skyline Usurper: 2:05.392(7376) -> 1:58.949(6997)
+-14f [INTRO2]:
+    -6f: Better propeller charge timings
+    -2f: Better alignment with switchgate to exit sooner
+    -6f: Better movement in second propeller part
+-5f [a01]:
+    -2f: Throw the propeller earlier in the pipe at the start
+    -3f: Don't jump at end for more height
+-2f [a01b]: Better movement before gultra-chain
+-58f [a02]:
+    +1f: Resync
+    -28f: Use more charges since you refill them anyway + preserve dash for pipe entry
+    -7f: Phyper with preserved dash crystal
+    -17f: Use better propeller alignment + smuggle it into bottom pipe
+    -5f: Better movement to next pipe
+    -2f: Better pipe entry at end
+-22f [a04]:
+    -3f: Better PDJ at start
+    -10f: Wait on the pipe instead of getting doubledash crystal
+    -9f: Get further to the left while waiting for propeller at end
+-35f [a05]:
+    -4f: Bhop at start
+    -31f: Overall better movement at end
+-130f [a06new]: Completely new route which skips most of the slow parts
+-113f [a07]:
+    -4f: Better bino storage setup
+    -161f: Ditch a probeller early and smuggle the other one
+    +52f: Do end without propeller
+  These improvemnts got overwritten by the previous one:
+    ~~-16f: Throw propeller better in pipe + better movement after that~~
+    ~~-2f: Grab propeller near end earlier~~
+    ~~-1f: Enter pipe earlier~~
+
+-28f Skyline Usurper: 1:58.949(6997) -> 1:58.473(6969) (nice)
+-25f [a07]: Refil propeller on barrier instead of waiting for pipe
+-3f [a07]: DCB at end
+
+-8f Skyline Usurper: 1:58.473(6969) -> 1:58.337(6961)
+[a07]: Refil propeller on barrier instead of using pipe
+
+
+-10f Vinculum: 1:51.469(6557) -> 1:51.299(6547)
+[a-01]: Super into upright instead of hyper into up
+
+-41f Vinculum: 1:51.299(6547) -> 1:50.602(6506)
+-4f [a-02]: Better jelly movement after bubble
+-2f [a-07]: Subpx-manip into dreamblock
+-31f [a-07 + a-08]: Get more speed + preserve it into the next room
+-3f [a-11]: Better down transition
+-1f [a-12]: Better heart collect
+
+-23f Madeline: The Bubble: 1:59.085(7005) -> 1:58.694(6982)
+-7f [Vina-00]: Get more speed at start
+-7f [Vina-00]: Cut reverse super
+-3f [Vino-00 + Vina-01]: Get more speed from prev room
+-3f [Vina-01]: Updemo for better landing
+-3f [Vina-01 + Vina-02]: Better waterboost in prev room
+
+
+-2f Summit Down-Side: 0:40.953(2409) -> 0:40.919(2407)
+[~7.5s]: DDJ earlier for a bit more speed + don't jump after dash towards spring
+
+-1f Hypnagogia: 1:14.290(4370) -> 1:14.273(4369)
+[a-00]: Updash later at start
+
+
+-82f Honeyzip Inc.: 1:07.728(3984) -> 1:06.334(3902)
+-1f [startroom + r1]: Land a frame earlier to jump earlier
+-1f [r3]: Someone removed the room label and messed up the timinigs
+-1f [rhub(0)]: More speed into zipline
+-75f: NEW ROUTE: Get the upleft key instead of the upright one
+-1f [r9]: Grab zipline a frame earlier
+-1f [r9]: Active zipper earlier
+-1f [r9]: Grab zipline a frame earlier
+-1f [r9]: Leave zipline earlier
+
+-5f Honeyzip Inc.: 1:06.334(3902) -> 1:06.249(3897)
+-1f [rhub(2)]: Use upwards liftboost to start dash sooner
+-2f [rhub(2)]: Better multiboost
+-1f [r7]: Spend less time retained
+-1f [rhub(3)]: Land earlier
+
+
+-4f Advanced Heartside: 5:03.280(17840) -> 5:03.212(17836)
+Resync flag 1
+
+-65f Flying Battery: 1:00.537(3561) -> 0:59.432(3496)
+-4f [a-02]
+    -1f: Subpx-manip before wallbounce to have less slowdown frames
+    -3f: Land earlier after upright at end
+-12f [a-03]:
+    -1f: Better throwable timings into first bubble
+    -11f: Throw battery earlier + dash-cb instead of dcb
+-2f [a-04]:
+    -1f: Throw battery at start earlier
+    -1f: Dash earlier under gate
+-28f [a-05]:
+    -1f: Land dash wavedash at start earlier
+    -10f: Throw battery at start lower + get better under gate
+    -15f: Demo through spinners after second throw
+    -2f: Better exit
+-14f [a-06]:
+    -1f: Subpx-manip for faster bubble entry
+    -13f: Hyper -> spinner-cb instead of dash-cb -> bonk -> jump at end
+-3f [a-07]: Wavedash slightly further right
+-2f [a-08]: DCB at start
+
+Sub minute **the second time** :3dgrineline: 
+
+
+-24f Loopy Lagoon: 1:22.348(4844) -> 1:21.940(4820)
+[c-12]: Skip getting bubble for loop-block boost and go directly to the right
+
+-108f Storm Runner: 1:33.364(5492) -> 1:31.528(5384)
+-1f [a-00]: Jump a bit higher for a hyper
+-100f [a-02]: Skip going to spring and go directly up (video)
+-4f [a-04]: Land dultra from prev room sooner for more speed
+-4f [a-04]: Slowfall with jelly
+-9f [a-05]: 6f bhop from prev room -> upright -> upleft instead of gultra -> up -> upleft
++11f [a-08]: The lightning changes cycle during the stun :destareline:
+-1f: Lightning cycle
+
+-0f Synapse: 1:51.265(6545)
+-7f [a1]: Spike climb instead of neutral + better end since more setup time
++7f: Cycles :desair:
+
+-4f Starlight Station: 1:48.409(6377) -> 1:48.341(6373)
+-1f [b4 + b5]: Spend less time retained before transition
+-3f [b5]: Get more speed from zipper and downdash instead of downright
+
+
+~~ -1f [1-1]: Faster start of the room and somehow get better subpx for faster exit ~~
+
+-15f Expert Heartside: 8:42.767(30751) -> 8:42.512(30736)
+-1f [b05_vina + b06_transition]: Jump earlier out of hyper
+-12f [c01_redboule]: Featherboost + Featherline
+-2f [d00_intro]: Climb up wall and downright instead of jumping away and demohyper
+
+-6f Pufferfish Transportation: 1:08.170(4010) -> 1:08.068(4004)
+-5f [RG2-4]: Better pipe entry at end
+-1f: Spinner cycle
+
+-10f Expert Heartside: 8:40.812(30636) -> 8:40.642(30626)
+-11f [d02_lethargicdoggo]: Cut a pause
++1f: Lightning cycle
+
+-24f Expert Heartside: 8:31.190(30070) -> 8:30.782(30046)
+-26f [d04_yoshachobi7]: Skip getting coins, would be a lot faster if you could regain your dash on the last hyper
++2f: Spinner cycle
+
+-25f Expert Heartside: 8:30.391(30023) -> 8:29.966(29998)
+-17f [a03_pansear]: 6f bhop in prev room to maintain speed into this one
+-7f [f01_quantumspaceman]: Better landing after gate skip
+-1f: Spinner cycle
+
+**Sub 30000f _and_ sub 8:30 :hyperfrogeline:**
+
+-6f Expert Heartside: 8:29.966(29998) -> 8:29.864(29992)
+-8f [b02_nyan]: Better nyom at end
++2f: Spinner cycle
+
+-3f Expert Heartside: 8:29.864(29992) -> 8:29.813(29989)
+[b03_banana]: DCB of corner-boost-block
+
+-14f Starlight Station: 1:39.433(5849) -> 1:39.195(5835)
+-3f [a2]: Activate crumble platform faster
+-3f [b2]: Go around spring to only hit it once
+-2f [b3]: Climbjump to activate zipper sooner
+-2f [b4]: Clear wall on first possible frame
+-4f [b4]: Downright to keep more speed
++1f: Spinner cycle
+-1f [brys3]: Slightly better multiboost at end
+
+-16f Expert Heartside: 8:29.813(29989) -> 8:29.541(29973)
+-14f [d02_lethargicdoggo]: Get more speed, lets you cut one stun completely
+-2f: Spinner cycle
+
+-93f Expert Heartside: 8:29.507(29971) -> 8:27.926(29878)
+-0f [a02_skunkynator]: Fast strat at start, just barely doesn't catch the cycle
+-1f [a02_skunkynator]: Demo to avoid bonking
+-6f [a02_skunkynator]: Better wallbounces
+-86f [a02_skunkynator]: Use dream spinners, allows you to catch the next cycle :frogeline:
+
+-7f Expert Heartside: 8:27.926(29878) -> 8:27.807(29871)
+-6f [f07_butcherberries]: JTA to go over first block
+-1f [f07_xplosives]: Start dash in previous room
+
+-0f Expert Heartside: 8:27.756(29868)
+-1f [a03_pansear]: Dashdash sooner since the downright gets retained anyway
+-1f [a03_pansear]: Apparently the subpixel gods were pleased by the previous imporovements because somethings else was somehow faster
++2f: Spinner cycle :destareline:
+
+-12f Expert Heartside: 8:27.756(29868) -> 8:27.552(29856)
+-10f [b00_intro + b01_stotch]: Get more speed
+-2f: Spinner cycle
+
+-3f Expert Heartside: 8:26.379(29787) -> 8:26.328(29784)
+-4f [a00_intro2 + a01_jackal]: Get more speed
++1f: Spinner cycle
+
++1f [a-05]: Release jump sooner
+-2f [a-06]: Start hyper earlier
+-0f [a-06]: Get more speed from zipper
+
+-3f Expert Heartside:  8:25.308(29724) -> 8:25.257(29721)
+-0f [a02_skunkynator]: Dreamhyper instead of DDJ near end
+-4f [a04_agent]: Better bino storage setup, improvements cascaded over the whole room
++1f: Spinner cycle
+
+
+-45f Expert Heartside: 8:25.257(29721) -> 8:24.492(29676)
+-1f [c03_alice]: Faster spike clip
+-9f [d01_ru]: Build up speed and then skip double dash crystal
+-29f [d01_ru]: Use other dreamblock to avoid a regrab
+-7f [d01_ru]: Better jelly movement
++1f: Lightning cycle
+
+-15f Expert Heartside: 8:22.809(29577) -> 8:22.554(29562)
++1f [c06_fall]: Don't demo into transition
+-15f [d00_intro]: Super since height is more important + Demohyper at correct height instead of climbing higher and downright
+-1f [d01_ru]: Use more speed to enter dreamblock earlier
+
+-3f Expert Heartside: 8:22.554(29562) -> 8:22.503(29559)
+-1f [a04_agent]: Start multiboost slightly earlier
+-2f: Spinner cycle
+
+-82f Expert Heartside: 8:22.503(29559) -> 8:21.109(29477)
+[a04_agent]: Multiboost off blocks way earlier
+
+-41f Expert Heartside: 8:21.109(29477) -> 8:20.412(29436)
+[a04_agent]: Better climbhop-cancel, remove bino-storage, get another liftboost -> enough speed to remove stun again
+
+-9f Expert Heartside: 8:19.800(29400) -> 8:19.647(29391)
+-2f [b01_stotch]: Wait a bit before 2nd updash to be able to activate the zipper on the first possible frame
+-1f [b02_nyan]: Demo before transition for immediate gultra
+-2f [c00_intro]: -1f Wallbounce earlier + cancel it, -1f Setup 6f bhop at end
+-4f [d00_intro]: Cut delayed ultra
+
+-3f Expert Heartside: 8:19.647(29391) -> 8:19.596(29388)
+-1f [d00_intro]: Revert back to previous dultra strat, but clear the wall sooner
+-2f: Lightning cycle
+
+-38f Expert Heartside: 8:19.596(29388) -> 8:18.950(29350)
+Build up more speed in d05_warp to skip more of downside, getting ~30 more speed would allow you to avoid the dash and keep your speed
+(I think this isn't a multiple of 3 because of the slowdown when entering the portal)
+
+
+-6f Expert Heartside: 8:18.950(29350) -> 8:18.848(29344)
+-8f [d03_apples]: Prioritize horizontal speed into before pipe
++2f: Spinner cycle
+
+-3f Expert Heartside: 8:18.848(29344) -> 8:18.797(29341)
+-2f [e01_linj]: Start moving earlier after dash
+-1f: Spinner cycle
+
+Moved spinner cycle for f01_quantumspaceman to e06_transition
+
+
+-38f Raindrops on Roses: 1:41.626(5978) -> 1:40.980(5940)
+[6]: Buffer slowfall out of stun, allows you to exit spinners much sooner cutting many pauses.
+     However, you have to exit on the left instead of the right
+
+
+-3f Expert Heartside: 8:17.063(29239) -> 8:17.012(29236)
+-4f [c01_redboule]: Faster feather entry, by @Madstraw
++1f [c01_redboule]: Feather resync, by me
+
+-9f Expert Heartside: 8:17.012(29236) -> 8:16.859(29227)
+-8f [a01_jackal]: Demohyper instead of wavedash after bumper
+-1f: Spinner cycle
+
+
+-12f Expert Heartside: 8:16.859(29227) -> 8:16.655(29215)
+-0f [a02_skunkynator]: Updash inside dream spinners (idea from @Madstraw), use more time to setup 4f bhop at end
+-11f [a03_pansear]: Use more speed
+-1f: Spinner cycle
+
+
+-12f Expert Heartside: 8:16.655(29215) -> 8:16.451(29203)
+[a04_agent + a05_flamecrafter]: Get another liftboost from multiboost, allows skipping first bounce in a05
+                                This multiboost is now limited by falling speed
+
+
+-2f 0-SJ_prologue: 0:13.430(790) -> 0:13.396(788)
+Cut CB after first ultra in prologue-01, since you need to slow down too much
+
+
+-27f The Solar Express: 3:08.411(11083) -> 3:07.952(11056)
+[Halcyon Promenade]: Upright directly into dreamblock: https://discord.com/channels/403698615446536203/1074148152317321316/1099767581658861659
+
+-31f Storm Runner: 1:18.387(4611) -> 1:17.860(4580)
+-1f [a-04]: Faster landing at end
+-4f [a-06]: Extend super on cloud
+-1f: Lightning cycle
+-19f [a-06 + a-07]: Land delayed ultra sooner which allows for more speed into the stun
+-6f [a-07]: DCB at end, removed waiting, better lightning cycle comment
+
+-57f Expert Heartside: 8:16.349(29197) -> 8:15.380(29140)
+-56f [d04_yoshachobi7]: Better route in first half, idea by @Butcherberries
+-1f: Spinner cycle
+
+-48f Expert Heartside: 8:15.380(29140) -> 8:14.564(29092)
+Jump timer abuse into down-side to cancel the high downwards speed
+
+
++1f Clockwork: 3:13.783(11399) -> 3:13.800(11400)
+Puffer resync
+
+-105f Stellar Odyssey: 1:48.358(6374) -> 1:46.573(6269)
+[a-07]: Deathwarp to heart: https://discord.com/channels/403698615446536203/923103459354480691/1104067560917446827
+
+
+-1f Clockwork: 3:13.800(11400) -> 3:13.783(11399)
+Propper puffer resync
+
+-107f Sands of Time: 1:06.538(3914) -> 1:04.719(3807)
+-7f [a-01]: Cut ultra since height is more important
+-4f [a-01]: Better multiboost off zipper
+-15f [a-01]: Better movement at end
+-43f [a-02]: Activate zipper to avoid slow corner jumps
+-12f [a-03]: Use liftboost again on last frame
+-3f [a-03 + a-04]: Transition wallbounce
+-2f [a-06]: Better climb up
+-2f [a-06]: Corner glide on crumble blocks to avoid grab
+-16f [a-06]: Better coin collection and getting back to kevin
+-1f [b-01]: Fixed buffer dash
+-2f [b-01]: Get a bit more speed at the end
+
+
+-27f Polaris: 1:46.658(6274) -> 1:46.199(6247)
+-3f [a2]: Better bino storage setup
+-24f [a2]: Land dultra on frame 11 -> faster setup + more spped
+
+-3f Expert Heartside: 8:14.564(29092) -> 8:14.513(29089)
+-1f [e05_itsabrody]: Start dash sooner
+-4f [e05_itsabrody]: Spinner cb
++2f: Spinner cycle
+
+-13f Expert Heartside: 8:14.513(29089) -> 8:14.292(29076)
+-12f [d02_lethargicdoggo]: Stop stun earlier, don't retain on wall to make it out of time other lightning in time
+-1f: Spinner cycle
+
+Read, ../StrawberryJamTAS/2_Intermediate/temple_of_a_thousand_skies, lvl_b-02 (2), lvl_b-06
+
+-498f Meaningless Contraptions: 1:55.804(6812) -> 1:47.338(6314)
+[a-5-b]: Manip subpx for a bit more speed, skip majority of the room
+
+
+-0f Temple of a Thousand Skies: 1:59.306(7018)
+Propely index all room labels + use SkipInput for freeze frames during stun
+
+-18f Expert Heartside: 8:13.119(29007) -> 8:12.813(28989)
+-6f [f02_dantko]: CB after hyper
+-3f [f02_dantko]: Don't wait for zipper at the end
+-9f [f02_dantko]: Skip going to left zipper near end
+
+Next thousand frame barrier broken :3dgrineline:
+
+-3f Golden Dawn: 1:14.137(4361) -> 1:14.086(4358)
+-1f [A0]: Instant hyper since cb is not important
+-1f [A0]: Start multiboost on first block sooner
+-1f: Lightning cycle
+
+-3f Expert Heartside: 8:12.660(28980) -> 8:12.609(28977)
+[f07_xplosives]: Go to the left and wavedash into ultra instead of downright into cpop
+
+-7f The Lab: 1:32.633(5449) -> 1:32.514(5442)
+-9f [cross-02-TiltTheStars]: Better multiboost + better movement until teleporter
++3f: Key cycle
+-1f [hub]: Fastbubble earlier
+
+
+
+!! 2000 !!
+-60f Rightside-Down Caverns: 1:14.936(4408) -> 1:13.916(4348)
+[Vamp_8]: Crouchjump through first spinners and demo through second spinners
+(ldcapture-recordings/09-04-2023_16-40-44.mp4)
+
+
+-3f Advanced Heartside: 4:57.041(17473) -> 4:56.990(17470)
+[heartside_Galaksyz]: Slow down earlier for less distance while keeping more speed
+
+-11f Rightside-Down Caverns: 1:12.471(4263) -> 1:12.284(4252)
+-1f [intro_SJ]: Start ultra sooner
+-0f [Vamp_2]: Readded room label
+-10f [Vamp_2]: Better resync with dcb
+
+-0f Expert Heartside: 8:12.558(28974)
+-1f [d02_lethargicdoggo + d03_apples]: Land earlier after stun to setup 6f bhop
++1f: Spinner cycle
+
+
+-29f Rightside-Down Caverns: 1:12.046(4238) -> 1:11.553(4209)
+[Vamp_3]: Build up more speed, allows skipping walljump after demo
+
+-3f Rightside-Down Caverns: 1:10.040(4120) -> 1:09.989(4117)
+-1f [Vamp_9]: Jump out of wavedash earlier
+-2f [Vamp_9 + Vamp_Final]: Get more speed at start for speed chain, setup feels improvable
+
+-13f Rightside-Down Caverns: 1:09.989(4117) -> 1:09.768(4104)
+-15f [Vamp_4]: Skip first sprint and go straight to second spring
++2f[Vamp_4]: FloatSpaceBlock cycle resync
+
+-6f Rightside-Down Caverns: 1:09.768(4104) -> 1:09.666(4098)
+[Vamp_8]: DCB of FloatSpaceBlock at end since it has a good cycle currently
+
+-3f Advanced Heartside: 4:56.990(17470) -> 4:56.939(17467)
+-2f [heartside_TiltTheStars]: pansear's faster bubble entry
+-1f [heartside_TiltTheStars]: Resync with coyote 6f bhop
+
+-185f Golden Alleyway: 1:38.396(5788) -> 1:35.251(5603)
+-2f [a_01]: Better movement after grabbing block
+-1f [a_02]: CB on gate for earlier dash
+-12f [a_02]: Better multiboost keep enough stamina for climbjump out of upright
+-7f [a_05]: Cut gultra at start
+-7f [a_05]: Better usage of the 2 required dashes
+-2f [a_06]: Spend less time retained + land dultra
+-2f [a_06]: Grounded wallboost of crumble platform
+-10f [a_06]: Upright demo instead of up dash
+-9f [a_06 + b_01]: Build up more speed at end of a_06
+-10f [b_03]: Use second dash after first feather
+-18f [b_03]: Don't hit spring at end to avoid ForceMoveR
+-40f [b_04]: Extended gultra on crumble platform, avoids waiting for block to go up
+-2f [b_04]: CB on gate after spring
+-62f [b_04]: Dash out of feather + gate cb to end stun sooner
+-1f: Spinner cycle
+
+-16f Overgrown Linn: 1:06.776(3928) -> 1:06.504(3912)
+-1f [a-01]: Jump after downdash for a bit more speed
+-3f [a-01]: Enter dreamblock lower it exit it sooner
++1f [a-02]: Less speed
+-7f [a-02]: Upleft dash instead of up dash and and moving into dash crystal
+-4f [a-03 + a-04]: Jump immediatly at end of a-03 since the transition refills your dash anyway
+-1f [a-05]: Wallbounce further left
+-1f [a-05]: Subpx-manip to exit sooner
+
+-7f The Core Problem: 1:39.620(5860) -> 1:39.501(5853)
+-1f [a-01]: Don't slow down
+-5f [a-02]: Slow down less
+-2f [a-08]: Start hyper sooner
++1f [a-09]: Less speed
++1f: Spinner cycle
+-1f [a-11]: Faster first bubble entry
+
+
+-65f Time Trouble: 1:19.135(4655) -> 1:18.030(4590)
+-64f: Get more speed into stun in a-05, allows crouch jump into a-06
+-1f: Lightning cycle
+
+-26f Construction Conundrum: 1:37.087(5711) -> 1:36.645(5685)
+-3f [a-005]: Faster landing after upleft
+-23f [a-008]: Stall under ceiling to stay crouched after hitting the powerbox
+
+Left a -177f commented strat abusing the Everest softlock prevention in the file
+
+-177f Construction Conundrum: 1:36.645(5685) -> 1:33.636(5508)
+Abuse Everest softlock prevention to skip majority of a-008
+
+-28f Construction Conundrum: 1:33.364(5492) -> 1:32.888(5464)
+[a-008]: 6f bhop on platform to avoid using springs
+
+-8f Construction Conundrum: 1:32.888(5464) -> 1:32.752(5456)
+-4f [a-002]: Collect double dash crystal to destroy powerbox faster
+-3f [a-010]: Optimize dash timings for more distance
+-1f [a-013]: Hit powerbox 2nd time with right dash instead of upright
+
+-3f Drifting Deep: 2:44.662(9686) -> 2:44.611(9683)
+Adjusted stuns to work with a better cycle
+-2f: Spinner cycle a-06
+-1f: Spinner cycle a-07
+
+-9f Expert Heartside: 8:11.844(28932) -> 8:11.691(28923)
+[d01_ru]: Replace hyper into dultra with 6f bhop into ultra
+
+-22f World Abyss: 3:09.057(11121) -> 3:08.683(11099)
+-1f [big-1]: Better acceleration at start of second part for a bit more speed
++1f: Spinner cycle
+-2f [big-3]: Spend less time retained after last spinner cycle
+-1f: Spinner cycle
+-7f [big-3]: Resync after last stun
++1f: Add spinner cycle after cycled
+-11f: Cut a pause because of cycle
++1f: Spinner cycle for stunless skip at end
+-2f [a-intro (1)]: Move further left to hyper sooner
+-1f [a-intro (1)]: Subpx-manip to land ultra sooner
+
+-27f Storm Runner: 1:17.860(4580) -> 1:17.401(4553)
+[a-00]: Hyper bhop off 2nd and 3rd cloud
+
+-15f Storm Runner: 1:17.401(4553) -> 1:17.146(4538)
+-15f [a-04]: Manip left before updash to avoid leftwards speed + hold jelly longer for longer 108 speed + gultra cancel with 390 speed + backthrow way earlier for faster fall
+-1f [a-06]: Earlier bino interaction
++1f: Spinner cycle
+
+-3f Expert Heartside: 8:11.283(28899) -> 8:11.232(28896)
+[b05_vina + b06_transition]: Better ending in b05 + Less slowdown with dultras
+
+
+-15f Soap: 1:21.243(4779) -> 1:20.988(4764)
+New strat with demo through spinners at end
+
+
+-8f Expert Heartside: 8:08.053(28709) -> 8:07.917(28701)
+-3f [c01_redboule + c02_moladan]: 6f bhop into dultra at end of c01
+-1f [c02_moladan]: Better upwards movement after high-speed ultra
++1f: Lightning cycle
+-5f [f04_archra]: Optimize gate skip
+
+
+-46f World Abyss: 2:51.513(10089) -> 2:50.731(10043)
+[big-3]: Wait less before starting the skip, gets less speed but still makes it
+(Note: the first cb isnt current hit)
+
+
+-27f World Abyss: 2:50.697(10041) -> 2:50.238(10014)
+-24f [lvl_chill-0 (0)]: Stun red instead of blue
+-3f [big-3]: Use +0f cycle instead of +2f to avoid changing the strat with a +1f resync
+
+-36f World Abyss: 2:50.238(10014) -> 2:49.626(9978)
+-2f [big-1]: Enter dreamblock as early as possible
+-15f [big-1]: Grab coin as soon as possible and still make it to the block, by @Luzid
+-1f: Spinner cycle
+-1f [big-2]: Corner-correct earlier at start
++1f: Spinner cycle
+-5f [big-2]: Keep more speed out of 2nd multiboost
+-1f [chill-0 (1)]: Walljump from higher platform instead of waiting for block
+-1f [chill-0 (1)]: Clear wall sooner at end
+-12f [chill-0 (1) + big-3]: Delayed ultra at end of chill-0 for a bit more speed + keep that speed for a crouchjump through the spinners before activating first block
++1f: Spinner cycle
+
+Sub 10000f :hyperfrogeline:
+
+-39f Belly of the Beast: 1:44.176(6128) -> 1:43.513(6089)
++2f: Spinner cycle
+-41f [a-08]: Throw the boulder, go back and stun without the pickup animation
+
+-25f Expert Heartside: 7:59.315(28195) -> 7:58.890(28170)
+-11f [d02_lethargicdoggo]: Cut a pause by slowing down a bit, preventing the lightning from loading
++1f: Resync
+-2f: Spinner cycle f01_quantumspaceman
+-9f [f00_intro + f01_quantumspaceman]: Gultra-cancel instead of dash+climbjumps, gets a bit more speed and allows for a better flag 5
+-1f [f03_hivemindsrule + f04_alt]: Multiboost a frame later to hit cb at end
+-1f [lvl_f07_legs]: Keep dashing into next room to cut a dash there
+-2f [lvl_f07_introcar]: Cornerslip to get dash back -> wavedash
+
+-3f [c01_redboule]: Jump earlier from move block
+-14f [c01_redboule]: Cut super and just go up directly
++4f [c01_redboule]: Resync, because blocks are in incorrect state
+
+
+-2f Honeyzip Inc.: 1:05.076(3828) -> 1:05.042(3826)
+-1f [r4 + rhub (1)]: Subpx-manip to hit dultra sooner
+-1f [r6]: Grab zipline earlier
+
+-11f Honeyzip Inc.: 1:05.042(3826) -> 1:04.855(3815)
+[r4 + rhub (1)]: Slightly different hub route: Prioritize height over speed, 
+                 maintains speed and allows for jump -> updash climbjump instead of updash -> wallbounce
+
+-1f Honeyzip Inc.: 1:04.855(3815) -> 1:04.838(3814)
+[r9]: Subpx-manip to hit coin earlier
+
+
+In collaboration with @luzid42:
+
+Go up to the top right and use the zipline to build up speed by repeatedly climb jumping on it for a high liftboost. (only possible with latest IsaGrabBag patch)
+Then do a delayed ultra from the zipline into a bino storage gultra cancel to jump up directly to the exit.
+Out of pure luck I found out that you can somehow abuse camera triggers to get the camera locked on the middle level.
+This means that the spinners at the top are simply not collidable because they're offscreen completely avoiding a stun.
+
+Note that the exact cause for the camera lock is not yet known, except that it has something to do with the zipper from middle to top, so the way up is still improvable by a bit.
+However I'm fairly certain that it has something to do with the fact that triggers are attached to the zipper + it's a trigger trigger spider web.
+
+(video with center camera)
+
+TLDR:
+
+-1309f Honeyzip Inc.: 1:04.668(3804) -> 0:42.415(2495)
+Helper resync :happylandeline:
+
+-17f Honeyzip Inc.: 0:42.415(2495) -> 0:42.126(2478)
+[r9]: Better zipline boost at the end
+
+-78f Honeyzip Inc.: 0:42.126(2478) -> 0:40.800(2400)
+-79f [startroom + r1]: Build up speed with the zipline in startroom to skip r1
++1f: Spinner cycle
+
+RIP stunless honeyzip, you'll be missed :despaireline:
+
+-1f Honeyzip Inc.: 0:40.800(2400) -> 0:40.783(2399)
+[rhub (0)]: Less time retained against wall
+
+-20f Honeyzip Inc.: 0:40.783(2399) -> 0:40.443(2379)
+-1f [startroom]: Faster zipline grab
++1f: Spinner cycle
+-1f [r6]: Gultra a frame longer
+-19f [r9]: Grab coin, go on top of zipper with uncollidable spinners to regain dash and demo to the other coin
+
+-16f Attack of the Clone: 1:07.575(3975) -> 1:07.303(3959)
+Optimize above by landing on the ground normally and jumping -> upleft -> demohyper to exit the room on the first possible frame
+
+-1f Attack of the Clone: 1:07.303(3959) -> 1:07.286(3958)
+[BR-01]: Subpx-manip to exit room earlier
+
+-21f Starry Ruins: 0:42.772(2516) -> 0:42.415(2495)
+-19f: Land delayed ultra in 3 on frame 11, gets enough speed to cut a pause and also saves time because of the higer speed
+-2f: Spinner cycle
+
+-10f Starry Ruins: 0:42.415(2495) -> 0:42.245(2485)
+-11f [8]: Different multiboost, also cornerslide with rcb on zipper in 9 instead of slowing down for gultra
++1f: New multiboost is stunless but spinner cycle dependant
+
+-13f In Filtration: 2:24.296(8488) -> 2:24.075(8475)
+-2f [btd-21]: Manip subpx on first zipper for earlier jump
+-11f [btd-21]: Go way earlier on last zipper by jumping a bit higher
+
+-48f In Filtration: 2:24.075(8475) -> 2:23.259(8427)
+[btd-02a]: Grab dash crystal directly after jumping from zipper to spend less time in slow-mo
+
+-8f In Filtration: 2:23.259(8427) -> 2:23.123(8419)
+-1f [btd-05]: Activate first zipper a bit earlier
+-6f [btd-05]: Jump earlier off zipper when leaving
+-1f [btd-06]: Higher screen entry from previous strat, corner corrects earlier
+
+-8f In Filtration: 2:23.123(8419) -> 2:22.987(8411)
+-1f [btd-10]: Slightly better subpx to dash earlier and still corner correct
+-1f [btd-09 (1)]: Slightly better dcb to activate key door earlier
++1f: Key cycle :despaireline:
+-6f [btd-20]: Different dash timings for less slowdown
+-1f [btd-20]: Subpx-manip to hit spring at end earlier
+
+-4f In Filtration: 2:22.987(8411) -> 2:22.919(8407)
+[btd-31]: Leave zipper at end sooner
+
+-103f In Filtration: 2:22.919(8407) -> 2:21.168(8304)
+-104f [btd-35]: Completely redo room
++1f: Resync
+
+I wonder why nobody improved this room yet
+
+-11f In Filtration: 2:21.168(8304) -> 2:20.981(8293)
+-2f [btd-42]: Grab dash crystal for multiboost a bit later
+Note: The normal route frames ties. I left it commented out since the multiboost is cooler to watch.
+-9f [btd-42]: Upright and updash into spring after spike jumps
+
+-46f Pointless Machines: 0:51.561(3033) -> 0:50.779(2987)
+-1f [01]: Get another jump on the opening gate for more speed
+-2f [02]: Better dcb and reach wall sooner
+-3f [02]: Get more speed after leaving falling block
+-8f [03] +21f: Grab the dash crystal by uncrouching with a dash, -29f: Use the extra dash for an way faster ending
+-3f [04]: Improved previous rooms allows for 6f bhop at start
+-29f [08 + 09]: Dcb on the moon blocks for a lot more speed (video)
+
+
+-0f Thinking with Portals:
+-1f [a-07 (0)]: Faster portal entry
++1f: Spinner cycle
+
+--------------------
+ STRAWBERRY JAM ARB
+--------------------
+
+
+-279f Looby Lagoon: 1:51.112(6536) -> 1:46.369(6257)
+-8f [c-08 (0)]: Climbhop cancel off loop block
+-13f [c-08b]: Spikejump off first loop block
+-1f [c-08b]: Demo further to the right for faster bubble entry
+-21f [c-08b]: Move a bit away from falling block for it to fall sooner
+-54f [c-08 (1)]: Keep speed from previous room which also allows you to skip a loop block
+-14f [c-11]: Spikejump + lower demo
+-140f [c-12]: Read any% file
+-20f [c-13 (0) + c-13b]: Jump on top of moving up loop block instead of liftboosted wallbounce
+-1f [c-13b]: Archie into last bubble
+-7f [c-13 (1) + c-14]: Use any% strat
+
+-120f Thinking with Portals: 1:20.019(4707) -> 1:17.979(4587)
+-4f [a-06]: Retain speed against wall while falling
+-1f [a-06]: Slowfall less to enter portal sooner
+-13f [a-06]: Walk a bit on platform to rightdash later instead of upright
+-2f [a-06]: Start updash sooner
+-18f [a-09 (0)]: Wavedash instead of demohyper of platform + cb for height instead of upleft
+-17f [a-10]: Throw box at end sooner to activate switch earlier
+-7f [a-10]: Wallbounce before portal to avoid having to land again
+-10f [a-09 (1)]: Hyper bhop into box
+-3f [a-09 (1)]: Throw box later to wait less for it
+-1f [a-09 (1) + a-11 (0)]: Retain speed earlier into gate the land dultra sooner (+ don't collect the berry for extra style points)
+-1f [a-11 (0)]: Wallbounce later, transition jump cancel no longer needed
+-8f [a-12]: Faster berry collection (+ don't collect the berry for extra style points)
++2f [a-12]: Downright at exit
+-14f [a-11 (1)]: Don't collide with ground after transition
+-1f [a-11 (1)]: CB into portal to enter earlier, wallboost not needed
+-22f: Powerbox Cycle :catpog:
+
+-315f If my driveway: 0:56.253(3309) -> 0:50.898(2994)
+-5f [02 (0)]: Hyper bhop before upleft
+-58f [02b]: Upleft early instead of up + multiboost of moving block for much earlier exit
+-142f [04 + 05]: Much better multiboost, allows skipping majority of 05
+-9f [06]: Cut the multiboost
+-1f [07]: Archie into bubble to activate spring faster
+-20f [07b]: Demohyper off zipper
+-21f [08]: Better multiboost + faster setup into wallbounce instead of upleft
+-14f [08]: 6f bhop off fallen block
+-5f [08]: Better movement toward zipper at the left
+-22f [08]: Multiboost of zipper on the left
+-18f [08]: Neutral rcb into early upright after last bubble
+
+-23f Collapsing Skyline: 0:58.123(3419) -> 0:57.732(3396)
+-10f [a-02 (1)]: Dash much earlier since the bottleneck is wait for the move block to return
+-7f [a-02 (1)]: Better multiboost into berry room
+-6f [a-08 + a-07 (1)]: Waterboost for more speed
+
+-46f Thinking with Portals: 1:16.721(4513) -> 1:15.939(4467)
+-1f [a-06]: Avoid corner correction at exit
+-63f: Sync against latest any% version
++18f: Powerbox cycle
+
+-2f Skyline Usurper: 2:11.835(7755) -> 2:11.801(7753)
+Fixed desync
+
+
+-587f Ivory: 0:45.254(2662) -> 0:35.275(2075)
+-106f [Hawthorne]: Slow down to make it into the teleporter while retaining your speed
+-1f [Chordless]: Manip subpx before bubble for 2f jump into demo
+-580f: Get a lot more speed in Ascent which allows for a resync with any%
+
+-52f Dropzle: 1:19.305(4665) -> 1:18.421(4613)
+-1f [03 (0)]: Hit kevin sooner
+-3f [03 (0)]: Crouchclimb at end
+-2f [03a]: Jump out of hyper sooner
+-1f [03a]: Good subpx after bubble
+-8f [03 (1)]: More direct route down
+-1f [04 (0)]: Crouchclimb before hitting kevin last time
+-13f [04 (0)]: Cancel recoil
+-1f [04a (0)]: Hit kevin sooner
+-13f [04a (0)]: Multiboost off kevin
+-1f [06]: Don't collide with ground -> keep downwards speed
+-0f [06]: Don't collected berries
+-3f [08 (0)]: Grab wall higher to have more speed going down
+-3f [08 (1)]: Keep downwards speed from hyper
+-2f [09]: Better sync with any%
+
+-178f Stellar Odyssey: 3:42.428(13084) -> 3:39.402(12906)
+-1f [a-04b (0)]: Faster cutscene skip
+-35f [a-04 (1)]: Faster retry
++1f: Spinner cycle
+-37f [a-07]: Faster retry
+-105f [a-07]: any% deathwarp
+
+-868f Flipside Cliffside: 2:37.845(9285) -> 2:23.089(8417)
+-340f [Solitude]:
+    -194f: Way faster dashless movement to the left
+    -47f: Dream double jump into two ultras
+    -57f: Better movement post ultra
+    -18f: Wavedash into crystal
+    -24f: Remove down-dash and just redo first part of room
+-46f [Basin (0)]: Better climb
+-396f [The Crux]: Mostly just using half-stamina / no-stamina climbing
+    -98f: Better climb in first part
+    -157f: Better climb in second part
+    -98f: Better climb in third part
+    -43f: Better climb in last part
+-35f [The Crux + Basin (1)]: Better berry pickup + better movement to dash crystal
+-11f [Nostalgia (0)]: Better movement after long upwards dreamdash
+-19f [The Edge (0)]: Slightly better movement, very cycle locked
+-21f [lvl_The Edge (1) + lvl_Nostalgia (2)]: Better movement to heart
+
+https://streamable.com/pu4ios
+
+
+Honeyzip Inc. draft in 1:31.188(5364)
+Most work was done by wolf, I just did the multiboost into topleft and the end
+
+
+-70f Stellar Odyssey: 3:37.260(12780) -> 3:36.070(12710)
+Re-added read commands, re-added room label indexing and re-added faster retrys
+
+-554f summit: 3:55.297(13841) -> 3:45.879(13287)
+-5f [2000M (0)]: Remove bino storaged
+-13f [2000M (0)]: Use any% block activation
+-118f [2000M (0)]: Very precise multiboost off moving block
+-230f [2000M-Berry]: Get more speed into room, allows skipping most of the waiting parts
+-4f [2000M (1)]: Enter badeline orb sooner
+-3f [2500M]: Enter bubble earlier
+-69f [2500M + 2501M]: Get bino storage again and use any% movement in 2501
+-35f [2501M-Berry]: Multiboost of first swap block
+-1f [2501M-Berry]: Fastfall
+-5f [2501M-Berry]: Use corner correction before seeker bonk
+-12f [2501M-Berry]: Various improvements near the end
+-26f [2501M-Berry]: Deathwarp with key
+-33f [2501M-Berry]: Setup fastfall into keydoor
+
+-325f Soap: 2:11.835(7755) -> 2:06.310(7430)
+-2f [05]: any% improvement
+-85f [07]: Port any% stun
+-3f [08]: any% improvement
+-22f [10]: Enter bubble with hyper bhop to keep dash
+-10f [10]: any% improvement
+-206f [11]: Port auto-scroller skip
+
+
+-214f Shattersong: 2:58.262(10486) -> 2:54.624(10272)
+Wait a bit to get another lift boost, reduces stunning + keeps speed through the end
+Also add more dashes at the start
+
+-96f Honeyzip Inc.: 1:32.956(5468) -> 1:31.324(5372)
+-21f [rhub (0) + r6 (0)]: Use any% strat
+-13f [rhub (1) + r8]: Get less speed and stall to let door open without having to do another multiboost
+-15f [r6 (1) + r6sb]: Better water movement
+-12f [r6sb]: Skip going around at end
+-14f [r6sb]: Multiboost from the back of the zipper
+-5f [r6sb]: Neutral RCB after upleft demo
+-1f [r4]: Better jump out of bubble for earlier corner correction
+-13f [r4 + rhub (2)]: any% improvements
++4f [r9]: Key cycle
+-1f [r9]: any% improvement
+-5f: Somewhere
+
+-19f Honeyzip Inc.: 1:31.324(5372) -> 1:31.001(5353) :destareline:
+[rhub (1) + r8]: Go earlier + cut
+
+-132f Attack of the Clone: 1:14.715(4395) ->  1:12.471(4263)
+-14f [BR-Outro (0)]: Cut heartbounce and go straight up
+-22f [BR-Extra]: Cut reverse hyper and go straight left
+-96f [BR-Extra]: The berry is not fully covered by badelines hitbox
+
+-28f Hypnagogia: 1:27.941(5173) -> 1:27.465(5145)
+-2f [a-03 (0)]: Updash earlier and let jump push you to the right
+-4f [a-03 (0) + b-01 (0)]: Break block later and coyote hyper into corner slide
+-10f [BEWWY]: Reverse wavedash instead of falling down and going up again
+-1f [BEWWY]: Do second dreamjump a bit later for more height
+-7f [a-03 (2)]: Better upwards movement
+-1f [a-03 (2) + b-01 (2)]: Setup 6f bhop after going up
+-3f [b-01 (2)]: Enter dreamblock higher
+
+-81f Mosaic Garden: 0:59.313(3489) -> 0:57.936(3408)
+Use read commands and port any% improvements
+a-03 resync still has a lot of potential left
+
+
+--------------------
+ SECRET SANTA 2023
+--------------------
+
+-9f Prologue: 0:06.766(398) -> 0:06.613(389)
+-1f: Avoid corner correction with updash
+-3f: Wallboosted jump and wallbounce of right wall
+-4f: Go up on the right side to badeline
+-1f: Slighly better movement at end to activate cutscene earlier
+
+
+Frost Forest draft in 1:08.731(4043)
+
+Autoscroller skip in q1 is 3px off from working
+Left some alt strats / ideas all over the file

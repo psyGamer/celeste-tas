@@ -1,0 +1,12 @@
+Read,TAS/NoClip/StartFullGameFile
+Read,TAS/NoClip/Prologue,Start
+Read,TAS/NoClip/LoadANoCollects,Prologue
+Read,TAS/NoClip/1A,Start
+Read,TAS/NoClip/LoadA
+Read,TAS/NoClip/2A,Start
+Read,TAS/NoClip/LoadA
+Read,TAS/NoClip/3A,Start
+Read,TAS/NoClip/LoadA
+Read,TAS/NoClip/4A,Start
+Read,TAS/NoClip/LoadA
+Read,TAS/NoClip/5A,Start

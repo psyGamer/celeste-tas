@@ -1,0 +1,433 @@
+RecordCount: 870
+
+console load StrawberryJam2021/4-Expert/ZZ-HeartSide
+   1
+
+Set Portaline.PortalGunEnabled true
+
+#Start
+ 190
+
+#lvl_a00_intro1
+
+#   6,R,Z
+#   1,R,J
+#   7,R
+#   4,R,J
+#   7,R,D,X
+#   1,L,D,X
+#Mouse 0 140 L
+#   7,R,D,X
+#Mouse 319 160 R
+#   6,R,D
+#   1,R
+#   1,R,J
+#   1,R
+#   1,R,J
+#   1,R
+#  16,R,D,X
+#   1,R
+#   1,R,J
+#   1,R
+#   1,R,J
+#  15,R,D,X
+#   1,R
+#   1,R,J
+#   1,R,K
+#   2,K
+#   6,R,K
+#  12,R,D,X
+#   4,R,J,G
+#  11,R
+#   1,R,J
+# 100,R
+
+  10,L,Z
+   2,L,J
+   4,L
+   2,L,J
+   7,L
+  14,R,D,X
+   1,R,J
+   5,R,D,X
+   2,R,J,G
+   1,R,K,G
+   3
+   2,R
+   2,R,K
+   3,R
+   1
+   1,R
+   1,R,D,J
+   1,R
+   1
+# Can get 436 but probbly doesnt matter
+  15,R,D,X
+   5,R,D
+   1,R,J
+   1,R,K
+   1,R,J
+   2,R,K,G
+   4,R,J
+   5,R,D,X
+   1,R,J,G
+   5,R
+   1,R,J,G
+   8,R
+   1,R,J
+  32,R
+
+#lvl_a00_intro2
+   1
+   1,S
+   1,D,J
+  34
+   4,R,Z
+   1,R,J
+   7,R
+   9,R,J
+   6,R,D,X
+   1,R,J,G
+  11,R
+   1,R
+   2,R,J
+  14,R,D,X
+   1,L,D,X
+Mouse 30 179 L
+   5,R,D
+Mouse 319 90 R
+   1,R,J
+   1,R,K
+   1,R,J
+   1,R,K
+   1,R,J
+   1,R,K
+   1,R,J
+   1,R,K
+   2,R,J
+   2,R
+   2,R,J,G
+   1,R
+  14,R,D,X
+  40
+
+#lvl_a01_jackal
+
+#Mouse 319 110 L
+#   1,R,D,X
+#   5,R,D,J
+#   5,R
+#   3,R,J
+#   1,L
+#Mouse 70 0 R
+#   4,R
+#Mouse 319 70 L
+#   2,R
+#Mouse 90 0 R
+#   4,L,U,Z
+#   4,R,U,Z
+#   5,R,J,G
+#   4,R,K,G
+#Mouse 319 60 L
+#   5,R
+#   1,L
+#Mouse 160 100 R
+# 100,R
+
+Mouse 319 98 L
+   1,R,D,X
+   2,R
+   1
+  10,R,D,J
+   1,L,J
+Mouse 0 100 R
+   1,L,K,G
+   2,R,K
+Mouse 0 40 R
+   2,R,K
+Mouse 319 80 L
+   6,R,K
+   1,R,J,G
+   1,J
+   3,R,J
+   1,R,K,G
+   4,R,J,G
+Mouse 319 60 L
+   2,R,J
+   3,R
+Mouse 160 100 R
+   2,R
+   5,R,J
+   5
+  12,R
+  15,U,Z
+  10,R
+
+  15,U,X
+  15
+  11,R
+
+#   2
+#   2,R
+#Mouse 319 40 R
+#   1,R
+#Mouse 0 130 L
+#  11,R
+#  10,D
+#  16,R,D
+#  15,R,U,X
+#  24,R
+#0:08.109(477)
+
+   2
+   1,R
+Mouse 318 64 L
+   1,R
+Mouse 319 40 R
+  12,R
+   5
+  15,U,X
+
+#   2
+#  19,R
+#   1,J,G
+#   3,R
+#   2
+#   2,J
+#   3
+#   1,L,J
+#   5,L
+#   4,R,Z
+#   1,R,J
+# 100,R
+
+  21,R
+   1,R,J
+Mouse 319 135 L
+  15,R
+Mouse 120 179 R
+   5,R
+   9,R
+  12,R,U,X
+Mouse 100 179 L
+   8,R,U,X
+   3,L
+Mouse 0 70 R
+   3,L
+   1,L
+  16,R
+  14,R,Z
+   1,R,J
+  70,R,D,X
+   4,R,J
+  40
+
+#lvl_a02_skunkynator
+   1,R,J
+   9,R
+  40,R,Z
+   4,R,J
+   7,R,K
+  15,R
+   1
+   4,X
+  34,R,D,X
+  12,D
+
+#  18,R,X
+#  20,G
+#  10,U,G
+#***
+
+#   1,J,G
+#   1
+#Mouse 319 79 L
+#   5
+#   1,L
+#   1,L,J
+#   2,L
+#   1,L,J
+#   7,L
+#Mouse 0 70 R
+#   2,L
+#   1,L,J,G
+# 100,L
+
+#   1,R,J,G
+#   1
+#Mouse 319 79 L
+#   1
+#Mouse 40 0 R
+#   3
+#   2,L
+#   1,R
+#   1,J,G
+# 100,L
+
+#   1,J,G
+#   1
+#Mouse 319 79 L
+#   1,D
+#Mouse 90 179 R
+#  14,D
+#  15,L,Z
+#   6,R,J
+#   5,R
+#   3,R,J
+#  10,R,J
+#  15,R,U,X
+
+  19,R,X
+  15
+  14,G
+  26,U,X
+  39
+   1,G
+   6,J,G
+   4,L,J
+  17,K,G
+  10,G
+   7,U,G
+  32,R,X
+   4,L,G
+   1,J,G
+   8,R,J
+   7,R
+  14,U,X
+   8,R
+  26,U,X
+  10,R
+  28,R,Z
+   4,R,J
+   1,K
+   3,R,K
+  22,R,X
+  22,D
+  15,R,D
+   4,R
+  30,R,X
+   4,J
+  14,U,X
+  31,R,J
+  14,U,X
+  13,R,J
+  14,U,X
+  13,R,J
+  11,R
+   9,R,Z
+   2,R,J
+   8,R
+   3,R,J
+   3,J
+   8,R
+   1,R,K
+   1,R,J,G
+   1,J
+  11,R,J
+   4,X
+   6,R,D,X
+   4,R,J
+   1,R,K
+   3,R
+  15,R,D,X
+  12,R,D
+  26,R,X
+   4,R,J
+   7,R,Z
+   7,R,J
+   1,R
+   2,R,J
+   1,R
+  39,R,Z
+   4,R,J
+  19,R,K
+  15,R,D,X
+   7,R
+   7
+   2,J
+   3
+   2,R
+   1
+   6,L
+   4,R,Z
+   1,R,J
+   4,R
+   1,R,J
+  40
+
+#lvl_a03_pansear
+   1,R,J
+   3,R,K,G
+   4,R
+   5,R,X
+   3,R,J,G
+   7,R
+  11,R,J
+   1,J
+   3
+  22,R,D,X
+  15,D,C
+  18,L,X
+  27,D,C
+  12,R
+  29,R,X
+  19,D,C
+  18,R,D,X
+   2,R
+  23,R,U,X
+   4,R,J
+   7,R,Z
+   5,R,J
+   6,R
+  15,R,D,X
+   1,R
+  26,R,J
+  12,R
+  23,D,X
+  19,L,C
+   4,L,J
+  12,L,D,X
+   1,R,J
+   2,R
+  19,R,D,X
+  30,R,J
+   4,J
+   1,R,J
+  14,U,X
+   5,J
+  18,U,X
+  13,R,C
+  28,D,X
+   1,L,D
+  12,R,D,C
+   1,L,J
+   2,L
+  27,L,D,X
+   4,L
+   7,L,Z
+   4,L,J
+   7,L
+  18,L,D,X
+  21,L,J
+   1,L
+   1,L,J
+  10,L
+  33,D,X
+  10,L,D,C
+   1,R,J
+   4,R
+  17,R,D,X
+   8,R,J
+  15,R
+  26,R,U,X
+   4,R,J
+   7,R,Z
+   7,R,J
+   4,R
+  19,R,D,X
+  33,R,J
+  17,U,X
+  18,R,J
+  42,R,X
+   4,R,J
+  43

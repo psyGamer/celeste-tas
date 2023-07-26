@@ -1,0 +1,23 @@
+RecordCount: 4
+
+console load 1 lvl_6 0
+   1
+
+#Start
+  32
+Set GrabMode Hold
+Unsafe
+   1,S
+   1,J,F,180
+   1,R,D,S
+  17
+
+#lvl_6
+  10,R,X
+  12,R,J
+1090,R,K
+
+
+
+
+1000

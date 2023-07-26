@@ -1,0 +1,1789 @@
+RecordCount: 2545
+
+#Start
+console load StrawberryJam2021/4-Expert/ZZ-HeartSide 18233.5420125127 -2360
+   1
+  36
+  13,R,Z
+  38,R,J
+
+#lvl_e00_intro
+   4,R
+  40
+
+#lvl_e01_linj
+   4,R
+  12,R,X
+   3,R,D
+   2,R,J
+  12,R,D,X
+   8,R,J
+  12,R,X
+   2,R,D
+   1,R,J
+  12,R,Z
+   3,R,D
+   1,R,J
+   1
+  14,R,Z
+   1
+  12,R,D,X
+   5,R,J
+  13,R,X
+   1,R,D
+   1,R,J
+  12,R,Z
+   3,R,J
+  13,R,D,X
+   4,R,J
+  12,R,X
+   5,R,J
+  13,R,D,X
+   4,R,J
+  12,R,X
+  14,R,J
+  13,R,X
+   2,R,D
+  14,R,D,X
+   8,L
+  14,R,U,X
+   6,R
+   1
+   1,X
+  13,D,X
+   7,L
+  14,U,Z
+   7,R
+   2,L
+  14,R,D,X
+   4
+   8,R,J
+   8,L,J
+   1,L
+  14,U,X
+   9,L
+   5,L,D,J
+  22,R
+  15,U,X
+   3,L
+  14,R,U,X
+  18,R
+   5,J
+   3,R,J
+   1,J
+   4,R,J
+  14,R,U,X
+   7,R
+  13,R,Z
+   3,R,J
+  12,R,Z
+   7,R,J
+  12,R,Z
+   3,R,J
+   2,R
+  14,R,Z
+   1,R,J
+  14,R,D,X
+   1,R,J
+  14,R,D,X
+   1,R,J
+   9,R,D,X
+  40
+
+#lvl_e02_aspar
+   6,R,D,X
+   1,J
+   5,R,J
+   7,L,J
+   1,K,G
+  10,L,K
+   1,R,K
+   1,J
+  24,L,J
+   1,K
+   2,R,K
+  10,L,K
+   1,J,G
+  10,L,J
+   1,R,J
+   1,K
+  12,R,J
+  11,K,G
+   1,L,K
+   1,J
+  24,R,J
+  24,R,K,G
+  13,R,D
+  38,R,J
+   8,R,K,G
+   8,R
+  11,R,D
+  20,R,J
+   3,J
+  14,R,U,X
+  12,R
+   2,R,K,G
+   4,L,K,G
+   9,R,K,G
+  11,R,J,G
+  20,R
+   8,R,J
+   6,R
+   1,R,J
+   3,R
+   1,R,J
+  12,R,D
+   1,K
+   7,R
+   1,R,J
+   1,J
+   1
+   1,J
+   1,R
+   2
+   1
+   4
+   2,L
+   1,L
+   6,L,Z
+   1,R,J
+   1,R
+stunpause
+   3,R
+   7,R,J
+   8,R
+   2,R,J
+   6,R
+skipinput,3,1
+  10,D,X
+endstunpause
+  20,D
+   1,R,D
+   1,D
+   1,R,D
+   1,D
+   1,R,D
+   1,D
+   1,R,D
+   1,D
+   1,K
+  19,R,D
+   1,R
+   1,R,D
+   1,R
+  13,R,D
+   9,R
+   3,R,D
+   2,R,D
+   2,R
+  14,R,Z
+   4,R,J
+   1,R
+  14,R,D,X
+   1,R,J
+   1,R
+   5,R,D,X
+  40
+
+#lvl_e03_spirialis
+   9,R,D,X
+   1,R,J
+  14,R,D
+   4,R,D
+   1,R,J
+   9,R
+   1,R,J
+   8,R
+   1,R,J
+   6,R,K
+  15,R
+   2,R,J
+   3,R
+   5
+   9,R,Z
+   7,R,Z,G
+   1,R,J,G
+   1,R,G
+  14,R,D,X,G
+   1,R,J,G
+  10,R,D,X,G
+   4,R,K,G
+   1,R
+   1,R,K,G
+   1,R
+   1,R,K,G
+   1,R
+   5,R,D,X,G
+   1,R,J,G
+   1,R
+   2,R,K,G
+  12,R
+   6,R,G
+   2,R,D,G
+   2,R,J,G
+   1,R
+   2,R,D,G
+   1,R
+   2,R,D,J,G
+   6,R,G
+   1,R
+   1,R,D,G
+   1,R,D
+   1,R,D,G
+   1,R,D,J,G
+   6,D,J,G
+   2,D,G
+  14,R,K,G
+  15,U,X,G
+   2,L,G
+   4,R,G
+   9,R
+   1
+   1,R,G
+   5,L,J
+   5,J
+   1,J,G
+   1
+   1,G
+  12,J
+   1,K
+   7,L,D,X
+   2,G
+   1,L
+   1,L,J,G
+   2,L
+  10,L,J
+   1,L,J,G
+   1,L
+  10,L,K
+   1,K
+   1,K,G
+   1,J,G
+   1,K,G
+   8,R,K
+   2,K
+   1,J,G
+  10,K
+   6,R,Z
+   1,G
+   3,R,J
+   3,R
+   1,R,G
+   1,R
+   4,R,J
+   5,R
+   1,R,J
+   8,R,D
+   4,D
+   1,D,G
+   4,D
+   5,L,Z
+   2,R,J,G
+   3,R,D
+   5,R,J
+   5,R
+   4,R,J
+  14,R,Z
+   4,R,J
+  14,R,Z
+   1,R,J
+  14,R,D,X
+   1,R,J
+  14,R,D,X
+   1,R,J
+  40
+
+#lvl_e04_scroogle
+   8,R,D,X
+   1,R,J
+   7,R
+  14,R,J
+  14,R,D,X
+
+   2,R
+ 235
+   7,L,J
+  11,L,X
+   1,L,J
+   4,L
+  15,U,X
+   1,R,J,G
+   7,R
+  10,R,X
+  14,R,J
+   1,K
+  11,U,X
+   1,J
+  20
+   6,R
+   1,K,G
+   8,R,G
+   1,L,K
+  10,L,K
+   9,J,G
+   4
+   2,L
+   2
+  11,R,D
+  11,R,Z
+   1,R,K,G
+   3,R,J,G
+   3,J,G
+   4,L,J,G
+   5,R,K
+   1,R
+   2,L
+   1,K
+   1,K
+   1,R
+   5,R
+   1,R,J
+   5,R
+   1,R,J
+   4,R
+   1,R
+   1,R
+   2,R
+   2
+   9,L,X
+   1,J,G
+   1,L,J
+   4,L,J
+   1,L,J
+   7,L
+   2,L,J
+   1,L,J
+   1,L
+   4,J
+   1,L,J
+   3,R,J
+   1,J
+  11,R,D,K
+   6
+  11,D,X
+#might be possible to skip activation by going under kevin
+   1,L,J
+   2,R
+   6,L
+   1,L,K,G
+   2,R
+   4
+   6,J
+   7
+   6,D,J
+   5
+   5,R,J
+  11,L,K,G
+   1,J
+   5,L,U,Z
+   1,L,J,G
+   1,R,J
+   1,K,G
+   1,L,K
+   1,R,K
+   1,J,G
+  22,L,J,G
+   7,R,K
+  11,L,J
+  13,L
+  18,L,U,C
+  15,L,X
+  18,R,C
+  17,U,X
+  20,J
+  15,R,D,X
+  18,L,U,C
+   4,X
+  11,L,D,X
+  18,R,U,C
+  15,R,X
+  18,L,C
+  15,L,X
+  18,R,C
+  15,R,U,X
+  18,L,D,C
+  15,L,U,X
+  18,R,D,C
+  17,U,Z
+  18,U,X
+  43
+
+#lvl_e05_itsabrody
+  11,L
+  18,U,X
+  14,L,U,C
+   1,J
+   3,R,K
+  10,L,X
+  11,R,J
+   5,R
+   1,R
+   6,R,J
+   9,R,D
+  14,R,Z
+   1,R,J
+   6,R
+   6,R,J
+   3,R
+  14,R,D,X
+   1,R,J
+   1,R
+   3,R,J
+  13
+  11,D
+   2,R,D
+  17,R,X
+   2,R
+   1
+  14,R,U,Z
+  26,R
+  15,R,U,Z
+  14,R,U,X
+  24,R,D
+  14,R,X
+  22,L,D
+  10,R,D
+   4,R
+   7,R,X
+   1,K,G
+  11,R,K
+  24,R,D
+  14,R,X
+   1,K,G
+   5,R
+   2,R,K
+   1,R
+   1,K
+  13,D
+   1,K
+   1,R,K
+   4,R
+   2
+   4,K
+   1
+   8,J,G
+  12,R,J
+  17,U,X
+   5,L
+   2
+   1,L,J,G
+   1,K
+   6,R,K
+   6,R
+   9,R,K
+   4,K
+   2,D
+  14,R,Z
+  14,R,D
+   5
+   2,R
+  14,R,Z
+   1,R
+   1,K
+   2
+  10,L
+   9
+   7,R
+  10,R,D
+   1,R,K,G
+   3,R,J,G
+   7,R
+  14,R,X
+   9,R
+  15,R,X
+   3,R
+   2
+   1,R
+   6
+  15,L,X
+  15,U,C
+   4,L
+   3,R,J
+  12,R
+   6,R,J
+   1,J
+   2,J
+  15,U,X
+   1,L,K,G
+  20,D
+   1,K
+   1,J,G
+   1
+   5,R,J
+   2,R
+   2,R,J
+  14,R,D,X
+   7,L,D
+  14,R,Z
+  22,D
+   1
+   2,D
+   2,J
+   3,R,J
+   5,R
+   2,R,J
+   1,R
+   1,R,K,G
+   1,R,J,G
+   5,R
+   2,R,J
+   2,R
+   1,R
+  14,U,X
+   3,D
+  24,R,D
+   8,R
+  21,R,X
+  45,D
+  18,R,Z
+   5,L,U,X
+  12
+  15,U,X
+   7,L,U,G
+   1,J,G
+   3,L,G
+   2,R
+   1,L
+   1,J
+   1,K,G
+   1,L,J,G
+   2,R,J
+  22,R
+  40
+
+#lvl_e06_transition
+  15,R,D,X
+   4,R,J
+  14,U,Z
+   3,J
+   7,R,J
+   4,J
+   1,K,G
+   7,R
+  13,R,Z
+   1,R,J
+   7,R
+   1,R,J
+  14,R,D,X
+   6,R,J
+  10,R
+  14,R,Z
+   1,R,J
+  15,R,D,X
+  15,L
+***s
+#distance might be bottleneck here not sure how cutscene works
+
+# 240
+#***
+#   4,R,Z
+#   1,L,J
+#   6,L
+# 112,L,J
+
+ 163
+  25,L
+   8,R
+  11,R,U,G
+  12,J,G
+   7,L,J
+  15,U,X
+  54,L
+#1:10.227(4131)
+
+#console load StrawberryJam2021/4-Expert/ZZ-HeartSide -7031.97948551178 1479.91193711758 0 -79.62651
+#   1
+   
+##Start
+#  37
+
+#   8,R,D,X
+#   1,L,J
+#   7,L
+#   6,L,J
+#  22,L,D,X
+#   8,L,J
+#  14,L,U,X
+#   1,L,J,G
+#   2,L,K,G
+#   1,L,J,G
+#   6,K,G
+#   5
+#   2,K
+#  17
+#  13,R,Z
+#   3,R,J
+#   1,R,K,G
+#   5,R,D,X
+#   1,R,J,G
+#   2,R,K,G
+#   1,R,J,G
+#   7,R
+#   2,R,J
+#  14,R,U,X
+#   2,R,J,G
+#   1,R,K,G
+#   2,R,J,G
+#   5,R,K,G
+#  29,R,D
+#   1,R,D,J
+# 100,R,D,X
+
+***
+
+  16,L
+   5
+   4,R,Z
+   1,R,J
+   7,R
+   9,R,J
+   6,R
+   4,R,J
+   4,R
+  12,R,Z
+#1:11.247(4191)
+
+#  11,L,D,X
+#   1,R,J
+#   1
+#   6,R
+#   9,R,J
+#   6,R
+#   3,R,J
+#   5,R
+#  13,R,Z
+#1:12.267(4251)
+
+   1,R,J
+   1,R,K,G
+   1,R,J,G
+  20,R,D
+  14,R,U,X
+   1,R,J,G
+   1,R,K,G
+   7,R
+   4,R,J
+  15,R,D,X
+  11,R
+   1,R,J
+   6,J
+   6,R,D,X
+  40
+
+#lvl_f01_quantumspaceman
+   9,R,D,X
+
+#   3,L,D,J
+#   7,R,J
+#   2,R,K,G
+#   5,R
+#   4,R,K
+#Invoke, Player.MoveH, 3
+#Set, Invincible, true
+#  14,R,Z
+# 100,R,D,G
+
+   2,L,J
+   8,R,J
+   6,R,K,G
+   1,R
+  14,R,D,X
+   8,R,J
+  17,G
+  40,R,U,G
+  18,U,G
+   1,R
+  14,U,X
+
+   1,R,J
+  30,R,D
+   5,D
+  10,R,D,X
+   1,R,J
+   6,R
+   1,R,J
+   9,R
+  15,R,U,X
+   9,R
+   1,R,J
+  10,R
+   8,L
+  44,G
+   1,J,G
+  29,R,J
+   5,R
+  22,L
+  23
+  20,R
+  53,R,U,G
+   1,R
+  18,R,D,X
+   6,R
+  25,R,G
+  21,G
+  62,R,U,G
+  20,R,U,G
+   1,R
+  15,R,X
+  13,R,Z
+  31,R,J
+   1,K
+  21,R,K
+  17,K
+   1,J
+  21,R,J
+  17,J
+   1,K
+  21,R,K
+  17,K
+   1,J
+  21,R,J
+  14,J
+  14,R,X
+   9,J
+  60,L,U,G
+  34,U,G
+   9,L,U,G
+   2,L,G
+   1,L
+  14,R,U,Z
+
+#  15,R,J
+#   9,R
+#  24,D
+#  11,R,D
+#  10,R,D,X
+#   1,R,J
+#  16,R
+#  15,R,U,X
+#   9,R
+#   1,R,J
+#  17,R
+#  10,L
+#  36,G
+#   1,J,G
+#  29,R,J
+#   5,R
+#  21,L,D
+#   8,D
+#   5,R,D
+#  13,R
+#  53,R,U,G
+#   1,R
+#  18,R,D,X
+#   6,R
+#  25,R,G
+#  20,G
+#  62,R,U,G
+#  20,R,U,G
+#   1,R
+#  15,R,X
+#  13,R,Z
+#  31,R,J
+#   1,K
+#  21,R,K
+#  17,K
+#   1,J
+#  21,R,J
+#  17,J
+#   1,K
+#  21,R,K
+#  17,K
+#   1,J
+#  21,R,J
+#  14,J
+#  14,R,X
+#   9,J
+#  60,L,U,G
+#  34,U,G
+#  10,L,U,G
+#   1,L
+#  14,R,U,Z
+#   2,R,J,G
+# 100,R
+
+   1,R,J,G
+   8,R
+   6,R,Z
+   1,R,J
+   1,R,K,G
+  16,R
+   1,R,J
+   1,R,K
+   1,R,J
+   1,R,K
+   1,R,J
+   5,R,D,X
+   1,R,J,G
+   5,R
+  40
+
+#lvl_f02_dantko
+  12,R
+   1,R,J
+   3,R
+  18,R,D,X
+   6,R
+   1,R,J
+   2,R,K
+   5,R
+   1,R,K
+   7,R
+
+  18,R,D,X
+   6,R,D
+   1
+   4,L,Z
+   1,L,J
+   1
+   5,L
+   7,L,J
+   5,L
+  15,L,U,Z
+  16,L
+  10,R,D,X
+  16,R,J
+  15,R,D,X
+  20,R
+   7,L
+  14,L,Z
+  17,R,J
+   2,R
+  15,L,U,X
+# Wait for the slow zipper before the portal to return
+  39,R
+  10,L,D,X
+   1,R,J
+   4,R
+  15,R,D,X
+   5,R
+   1,R,J
+   1,R
+   1,R,K
+   5,R,J
+   9,R
+
+#  32,R
+#  12,L,D,X
+#   3,R,J
+#  15,R,D,X
+#   9,R
+#   2,R,J
+#   1,R,K
+#   1,R,J
+#  13,R
+
+   2,R,J
+   1,R,K
+   1,R,J
+  17,R
+  14,U,X
+  11,R,J
+   7,R
+
+#  12,R,X
+#   1,R,J,G
+#   6,R
+#   7,R,D,X
+#   1,R,J
+#   7,R
+#   6,R,Z
+#   1,L,J
+# 100,L
+
+  11,R,X
+   2,R,J,G
+   4,R
+  14,R,D,X
+  15,L,J
+  10,L,D,X
+  11,R,J
+  15,R,D,X
+
+# 100,R
+# 100,R
+
+#  15,D,C
+# 100,D
+
+#  16,R
+#  14,R,D,X
+#   3,R,J
+#  15,R,D,X
+# 100,R
+
+#  19,R
+#  10,L,D,X
+#   7,R,J
+#   1,R
+#  20,R,J
+#  15,R,D,X
+# 100,R
+
+#  15,R,D,X
+#   4,R
+#   2,R,D
+#   2,R
+#   2,R,D
+#   4,L,Z
+#   1,L,J
+#   2
+# 100,L,J
+
+   5,R
+  12,R,D
+   2,D
+  14,R,D,X
+  30,L,J
+  25,G
+   1
+   1,J,G
+   1,K,G
+  10,R,X
+   1,R,J,G
+  13,R
+  15,L,D,X
+   3,L,D
+   6,R,Z
+  20,R,J
+  15,R,U,X
+   9,L
+  14,L,Z
+   1,R,J
+   1,R
+  15,R,D,X
+
+#   1,R,D,J
+#   7,R
+#   4,R,J
+# 100,R
+# 100,R,D,X
+
+#   3,R,D
+#   6,D
+#   1,R,J
+#  12,R,D,X
+#  30,D
+
+   8,R,D
+   1,D
+   1,R,J
+  11,R,D,X
+   5,J
+  14,R,U,X
+   1,R,J,G
+  36,R,D
+   4,R,Z
+   1,R,J
+   6,R
+   7,R,J
+   2,R
+   6,R,D,X
+  43
+
+***s
+#lvl_f02.5_xolimono
+   9,R,D,X
+ 224,D
+   1
+   2,L,J
+  11,L,Z
+   1,R,J
+   3
+   3,R
+   1,R,J
+   4,R,K,G
+   1,K
+   5,R,K
+   3,R
+   7,R,J,G
+   5,R,D,X
+   6,R,J,G
+   5,R
+   3,R,J
+   4,R
+   7,R,J
+   5,R
+  43
+
+***
+#lvl_f03_hivemindsrule
+   1,J
+  12,R
+  14,R,U,X
+***
+   1,J,G
+   6
+   4,L
+
+   6,R,D,X
+   1,R,J
+   7,R
+   1,R,J
+  14,R,D,X
+  13,R,J
+***
+   1,L,K,G
+   7,R,K
+  15,U,X
+  10,R
+  11,G
+   3,U,G
+   1
+   1,R,J,G
+   1,R,K,G
+  14,L,D
+  43,D
+***
+
+  12
+  20,R
+   5,R,D,X
+   3,R,J
+   5,R,K
+  12,R
+  30,R,J
+  14,U,X
+***
+  11,J
+   1,L,J
+   4,J
+   5,L,J
+
+#  16,G
+#   1
+#   1,J,G
+#   1,K,G
+#   1,L,J,G
+#   8,R,J
+
+
+  27,U,G
+   1
+   1,L,J,G
+   1,L,K,G
+  31,R,K
+   4,K
+  11,J,G
+   1,L,J
+   1,K
+  12,J
+   6,K,G
+   2,R,K
+   6,R,J
+   6,L,K
+   8,R,J
+   5,R
+   2,R,J
+   5,R
+   9,L
+  21,U,G
+   1
+   1,J,G
+   5,K,G
+  15,R,D,X
+   7,R,D
+   6,R,J
+  32,R,D
+***
+
+
+   9,R,D
+  19,R
+   1,R,D
+  14,R,U,X
+   1,R,J,G
+  10,R
+  20
+   7,L
+  14,R,D,X
+   1,R,J
+  15,R,D,X
+   7,R,D
+#1:59.323(7019)
+***s
+  23,R,J
+  18,U,X
+  10,R
+  15,R,C
+  15,R
+   1,G
+   2,J,G
+   6,R
+   1,L
+  34,D
+  15,R,Z
+***
+  38,L
+  10,L,D,X
+   1,L,J
+   6,L
+#2:02.383(7199)
+
+
+#  20,R,D
+#   9,R
+#  17,R,U,X
+#   1,J,G
+#   7
+#   1,G
+#  12,L,J
+#   7,L
+#  38,U,G
+#  13,R,J
+#  14,R,Z
+#   1,R,J
+#  15,R,D,X
+#   6,R,D
+#2:00.003(7059)
+#  11,R,J
+#   5,R
+#   2,R,J
+#   7,R
+#  18,U,X
+#  35,R,D
+#  11,D
+#Set Invincible true
+#StunPause Simulate
+#  15,D
+#EndStunPause
+#   3,R,D
+#  11,D
+#   1,L,D
+#2:03.420(7260)
+
+  11,D,G
+  14,G
+   1
+   1,J,G
+   1,K,G
+   1,J,G
+  21,R,D,X
+   4,R
+   1,R,D
+   1,R,J
+   5,R
+   4,R,J
+   3,R
+  13,R,U,X
+   8,R,J,G
+  40
+
+#lvl_f04_alt
+   6,R,J
+  18,U,X
+  33,D
+   8,J
+  27,U,X
+  70
+
+***s
+#lvl_f04_archra
+   7,R,D,X
+  21,R,J
+  15,R,U,Z
+   2,L
+  15,L,U,X
+   2,R
+  15,R,U,X
+   2,R
+  14,R,X
+  18,R,K,G
+   9,R
+  15,R,U,X
+   1,R
+  10,R,D,X
+   1,R,J
+   7,R,J
+  15,R,D,X
+   3,R,D
+   8,R,J
+  17,R
+   4,X
+  11,D,X
+   2,L,D
+
+  13,R,Z
+  14,L,J
+  15,L,D,X
+***
+   2,L
+   7,L,J
+  15,L,D,X
+  14,L
+  23,L,J
+  15,U,X
+   3
+  15,U,X
+   8
+  20,J
+   3,J
+  13,L,U,X
+***
+  23,R,J
+  15,R,D,X
+  10,R
+  21,R,J
+  10,L,U,X
+  30,R,J
+  12,L,U,X
+  27,R,J
+   4,X
+  11,R,D,X
+  10,R,D
+***
+   6,R,J
+  18,R
+   1,L,D
+   1,L,J,G
+   1,L,K,G
+   1,L,J,G
+   1,K,G
+   3
+  15,R,D,X
+   4,R,D
+***
+   2,R,D,J
+  26,R
+  30,L
+  14,L,U,Z
+   4,R,J
+  15,R,D,X
+  11,R,D
+***
+
+  15,D,X
+   2
+   3,R
+   5,L,Z
+   1,R,J
+   7,R
+   1,R
+   1,R,J
+   2,R
+  15,R,D,X
+   8,R,D
+   6,R,J
+   4,R
+  15,R,D,X
+   5,R,D
+  15,D,X
+  11,D
+   8,R,D
+  10,L,D,X
+   1,R,J
+   4,R
+  15,R,D,J,X
+***
+   2,R,D,J
+   4,R,J
+  26,R,K
+  15,U,X
+   1,R
+  14,R,X
+   1,R,J,G
+  10,R,K,G
+   5,R,J,G
+  15,R,D,X
+  19,R,J
+  15,U,X
+   1,R
+  10,L,D,X
+***
+   9,R,J
+   1,R
+   1,R,J
+  16,R,D
+  10,L,D,X
+   1,R,J
+   4,R
+  15,R,D,X
+   2,R,D
+   8,R,J
+   9,R
+   1,R,J
+   7,R
+***s
+  14,R,U,X
+   1,R,J,G
+  10,R
+   1,R,J
+   8,R,D,X
+   1,L,J
+   7,L
+   4,R,Z
+   1,R,J
+   7,R
+Repeat 11
+   1,D
+   1
+EndRepeat
+Repeat 5
+   1,L
+   1,R
+EndRepeat
+   1
+
+***
+#lvl_f04_alt_2
+  15,R,D,X
+  10,R,D
+
+   4,R,Z
+   4,R,J
+   1,R
+   2,R,J
+   8,R
+   8,L,D,X
+
+#   4,R,Z
+#   1,R,J
+#  15,R
+#   8,L,D,X
+
+   1,R,J
+   1,R,K
+   2,R,J
+   1,R
+   1,R,K
+   2,R,J
+   1,R,K,G
+   5,R
+
+#   1,R,J
+#   1,R,K
+#   2,R,J
+#   1,R
+#   1,R,K
+#   2,R,J
+#   3,R,K,G
+#   3,R
+
+
+#   4,R,Z
+#   1,R,J
+#   7,R
+#   5,R,J
+#   8,R,D,X
+#   2,R,J,G
+#   1,R,K
+#   6,R
+#   1,R,J
+#   2,R
+#   2,R,J
+
+  40
+
+***s
+#lvl_f05_cabob
+
+   7,R
+   2,R,J
+   5,R
+   1,R,J
+   3,R
+   1,R,J
+  22,R,U,Z
+   4,R,J
+   1,R,K
+  10,R,U,X
+***
+   1,J,G
+   6,R,J
+   1,L,J
+  19,R,U,X
+   4,L,J
+   4,L,X
+  37,L,J
+***
+  30,U,G
+   1
+   1,L,J,G
+   1,K,G
+  13,R,U,X
+   4,R,J
+   2,R,K
+  15,R,D,X
+***
+  10,R,D
+   5,R
+   6,R,J
+   1,R,K
+   1,R,J
+  15,R,D,X
+   4,R,D
+  10,R,J
+  37,R,X
+***
+   4,R,J
+   2,R,K
+   1,R,J,G
+   4,J
+   4,R,J
+   5,R
+   1,R,J
+  25,R
+  14,R,U,X
+   2,R,J,G
+
+***
+#lvl_f06_cabob
+   1,R
+   6,R,D,X
+   1,R,J
+   7,R
+   1,R,J
+  15,R,D,X
+   5,R,D
+   3,R,J
+  21,R,D,X
+***
+   4,R,J
+   1,R,K
+  17,R,U,X
+   4,R,J
+   4,R,K
+  15,R,D,X
+   4,L,J
+   1,L,K
+  14,L,U,X
+   4,L,J
+   1,L,K
+  15,L,D,X
+   4,R,J
+  12,R,U,X
+   4,R,J
+   1,R,K
+   1,R
+  15,R,D,C
+   7,R,D
+   1,R,J
+  16,R,D,X
+   4,L,J
+   1,L,K
+  19,L,D,X
+   4,R,J
+   1,R,K
+***
+  17,R,X
+   4,R,J
+   1,R,K
+***
+
+  12,R,D,X
+   4,R,J
+   1,R,K
+  96,R,D
+#2:36.094(9182)
+
+#  12,R,X
+#   4,R,J
+#   1,R,K
+#   1,R
+#  15,R,D,X
+#  82,R,D
+#2:36.077(9181)
+
+***
+#lvl_f07_butcherberries
+
+#  12,R,D,X
+#  15,D,C
+#  14,R,Z
+# 100,D
+
+#   6,R,Z
+#   1,R,J,G
+#   1,R
+#   1,R,J,G
+#   8,R
+#   2,R
+#   1
+#  14,R,Z
+#   1,R,J
+
+   8,L,D,X
+   2,R,J
+   3,R
+  15,R,D,X
+   8,R,Z
+   1,R,J
+   5,R
+  15,R,J
+  15,R,D,X
+   1,R,J,G
+  11,R
+
+  13,R,J
+  10,R,U,X
+   8,R,J,G
+   3,R,K,G
+   7,R
+   4,R,Z
+   1,R,J
+   7,R
+   8,R,J
+
+***
+#lvl_f07_xplosives
+   4,R,Z
+   1,L,J
+   7,L
+   5,L,J
+  15,L,D,X
+
+#   1,D
+#  15,R,D,X
+#   2,R
+#   3
+#   3,R
+#   3
+#  24,R
+#  12,J,G
+
+   3,D
+  15,R,D,X
+   8,R,D
+   1,G
+  10,R,J,G
+  19,R
+#2:39.647(9391)
+***
+
+   4,R,J
+   3,R
+  15,R,D,X
+   9,R,D
+  10,R,Z
+   1,R,J
+   4,R
+   6,R,D,X
+   1,R,J,G
+  12,R
+   4,R,J
+   2,R
+  14,R,D,X
+
+***
+#lvl_f07_ekisacik
+# These transitions happen after a fixed time
+# Time can only be saved by building up more speed after 2nd transition
+# Movement in this room is "intentionally" slow
+   1,L,J
+   7,L
+   1,L,J
+  10,L
+  25
+  11,R
+   6
+  15,U
+   2
+   7,R,Z
+   1,L,J
+   3,L
+   4
+
+#lvl_f07_lennygold
+  14,L,Z
+   4,R,J
+   6,R,D,X
+   1,R,J,G
+   3
+  11,R
+   3,R,J
+   5,R,D,X
+   1,R,J,G
+   5
+   6,R
+   1,R,J
+   4,R
+   8,R,D,X
+   1,R,J,G
+  18,R,D
+
+#lvl_f07_syrenyx
+   2,R,D
+   1,R,J
+  14,R
+   1,R,J
+   1
+  13,R
+   3,R,J
+   7,R,K,G
+   3,R,J,G
+  14,R,U,X
+  10,R,J,G
+   7,R
+   4,R,Z
+   2,R,J
+  10,R
+  15,D,X
+  14,R,D
+
+#lvl_f07_legs
+   5,R,D
+  18,R,X
+  15,R,D,C
+   3,R,J
+  15,R,D,X
+   6,D
+***
+  15,R,Z
+   2,R,D,J
+   3,R
+   2,R,D,J
+   3,R
+  12,R,J
+  12,K
+  10,J
+  15,R,Z
+  15,R,V
+  15,R,Z
+***
+
+   2,R,D,J
+   4,R
+  12,R,D,J
+  12,K
+   6,J,G
+   6,R,Z
+   1,R,J
+   7,R
+   1,R,J
+  14,R,D,X
+   1,R,J
+   8,R,D,X
+
+***
+#lvl_f07_introcar
+# Getting to the portal early allows
+# you to skip a bit of the next room
+   1,L,J
+   1,L
+   1,L,J
+   9,L,D
+  15,D,X
+   3,L,D
+   1,L,J
+   1,L
+  15,D,X
+   7,L,D
+  14,L,Z
+
+***
+#lvl_f07_and_you
+   1,R,J
+   2
+   5,R
+   1,R,J
+  15,R,D,X
+   4,R,D
+   1,R,J
+  14,R,D,X
+   1,R,J
+   3,R
+   1,R,J
+   3,R
+  13,R,J
+   8,R,K,G
+  15,R,D,X
+   5,R,J
+   6,R,D,X
+   1,R,J,G
+   4
+  12,R
+   2,R,J
+  15,R,K,G
+  15,R,U,X
+***
+  10,R
+  14,R,Z
+   1,L,J
+   4,L
+   1,L,J
+   9,L,D,X
+   1,R,J
+   4,R
+   1,R,J
+   9,R,D,X
+   1,L,J
+   4,L
+   1,L,J
+   9,L,D,X
+   1,R,J
+   5,R
+  10,R,X
+   5,L,J
+  15,U,X
+ 139,D
+
+1000
+
+ 100,R
+
+   4,R,Z
+   1,R,J
+  26,D
+#2:40.123(9419)
+
+   3,R,J
+   5,R
+   1
+  14,R,U,X
+   8,R,J,G
+ 100,R,K,G
+ 100,R
+ 100
+
+
+   8,L,D,X
+   1,R,J
+   3
+   4,R
+ 100,R,D
+
+   2,R
+   8,R,D,X
+   1,R,J,G
+  12,R
+  22,R,U,C
+   4,L,J
+ 100,L,K
+  15,R,U,X
+   1,R,K
+  15,R,U,X
+
+
+ 100
+
+   1,R,J
+  14,R,D,X
+   1,L,J
+  14,L,D,X
+   1,R,J
+  14,R,D,X
+   
+   1,R,J
+   8,R
+  15,R,U,X
+  13
+   4,R,J
+ 100,R,K
+
+
+  14,R,X
+ 100,R
+
+#  12,R,Z
+#  13,L,J
+#  15,L,D,X
+#   2,L
+#   7,L,J
+#  15,L,D,X
+# 110,L
+#  25,L,J
+#  15,U,X
+#  15,U,C
+# 100
+
+ 100

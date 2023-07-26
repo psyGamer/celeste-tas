@@ -1,0 +1,23 @@
+console load ParrotDashBirthdayCollab2022/0-Lobbies/Lobby 1016 700
+37
+***
+
+50
+
+
+Invoke, Player.MoveH, -1000
+40
+***
+Invoke, Player.MoveH, -1000
+75
+Invoke, Player.MoveH, -1000
+20
+
+Repeat, 100
+Set, Player.Position, -404, 1188
+1
+EndRepeat
+
+15,urx
+
+100

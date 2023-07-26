@@ -1,0 +1,218 @@
+console load 5
+1
+Set, ExtendedVariantMode.CornerCorrection, 32767
+
+#Start
+110
+
+#lvl_a-00b
+1,s
+1,dj
+34
+4,rz
+1,jr
+7,r
+13,jr
+1,gkl
+3,r
+7,urz
+2,jr
+40
+
+#lvl_a-00c
+13,gjl
+14,urx
+1,gjl
+19,jl
+10,gk
+1,kr
+1,kl
+14,gjl
+3,gkl
+7,l
+4,j
+14,ux
+5,jr
+40,jr
+
+#lvl_a-01
+26,dx
+26,rc
+9,urx
+15,urc
+14,rx
+18,rc
+5,urx
+59
+
+#lvl_a-13
+52
+
+#lvl_b-00
+1,j
+9,gkl
+13,urx
+1,s
+1,dj
+34
+2,jr
+14,urx
+40
+
+#lvl_b-01
+1,j
+16,gkl
+12,ulx
+1,j
+1,gkl
+18,kr
+1,r
+10,djr
+4,r
+10,ux
+3,jr
+1,k
+7,gjl
+11,l
+2,jr
+14,urx
+40
+
+#lvl_b-02
+1,r
+4,rz
+7,jr
+27,dr
+10,rx
+10,jr
+14,urx
+40
+
+#lvl_b-06
+1,r
+14,ux
+3,jr
+5,k
+5,j
+5,k
+5,j
+1,k
+8,gjl
+40
+
+#lvl_b-14
+8,ux
+43
+
+#lvl_b-16
+11,jl
+13,ux
+207,uc
+1,jl
+13,l
+15,drx
+1,jr
+12,urx
+1,gjl
+2,jr
+8,r
+2,jr
+6,dlx
+3,jl
+4,l
+1,gkl
+7,l
+4,lz
+1,jl
+7,l
+1,jl
+14,l
+4,rz
+1,jr
+7,r
+1,jr
+5,r
+1,s
+1,dj
+18
+
+#lvl_void
+ 525
+  19,R,D,X
+  19,L,D,C
+   6,F,204.6
+  19,L,U,X
+  17,L,U,C
+  11
+  19,L,D,X
+   6,F,169.7
+  19,L,D,C
+  11,L,D,X
+  19,F,270
+  19,U,X
+  18,L,U,C
+  10
+  20,L,X
+  28,U,C
+  20,L,X
+  25,L,C
+  34,L,X
+   9
+   1,J
+  34
+
+#lvl_c-00
+***
+191
+4,rz
+1,jr
+2,r
+1
+1,r
+5
+172,dr
+60
+9,rx
+8,jr
+40
+
+#lvl_c-01
+1,j
+7,gkl
+1,s
+1,dj
+34
+1,kl
+9,jr
+33,kr
+10,urz
+1,gjl
+35,dr
+14,rz
+1,jr
+8,drx
+40
+
+#lvl_c01b
+1,jr
+26,dr
+5,urx
+1,j
+12,gkl
+9,l
+1,gjl
+7,l
+10,lx
+15,jr
+14,urz
+40
+
+#lvl_c-13
+1,j
+6,ux
+40
+
+#lvl_d-00
+50,jr
+
+1000

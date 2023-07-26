@@ -1,182 +1,182 @@
 console load ParrotDashBirthdayCollab2022/1-Maps/toto00
-1
+   1
 
 #start
-190
+ 190
 
 #lvl_start
-3,jr
-9,j
-17,ux
-15,jr
-58,dl
-1,jr
-14,r
-1,jl
-6,l
-8
-3,dr
-2
-3,dl
-2
-3,dr
-2
-3,dl
-2
-2,dr
-1
-12,j
-17,ux
-15,jr
-5,ux
-13,l
-5,ux
-10,l
-5,ulx
-20,l
-14,lz
-1,jr
-14,drx
-25,jr
-15,urx
-21,r
-66,dl
-4,lz
-1,jl
-9,l
-1,jl
-10,lx
-2,jl
-10,jr
-16,ux
-20,jr
-7,jl
-15,ux
-5,jl
-15,ulx
-10,l
-11,gjl
-7,l
-4,lz
-1,jl
-7,l
-2,jl
-40	
+   3,R,J
+   9,J
+  17,U,X
+  15,R,J
+  58,L,D
+   1,R,J
+  14,R
+   1,L,J
+   6,L
+   8
+   3,R,D
+   2
+   3,L,D
+   2
+   3,R,D
+   2
+   3,L,D
+   2
+   2,R,D
+   1
+  12,J
+  17,U,X
+  15,R,J
+   5,U,X
+  13,L
+   5,U,X
+  10,L
+   5,L,U,X
+  20,L
+  14,L,Z
+   1,R,J
+  14,R,D,X
+  25,R,J
+  15,R,U,X
+  21,R
+  66,L,D
+   4,L,Z
+   1,L,J
+   9,L
+   1,L,J
+  10,L,X
+   2,L,J
+  10,R,J
+  16,U,X
+  20,R,J
+   7,L,J
+  15,U,X
+   5,L,J
+  15,L,U,X
+  10,L
+  11,L,J,G
+   7,L
+   4,L,Z
+   1,L,J
+   7,L
+   2,L,J
+  40
 
 #lvl_main-01
-10,jl
-16,ux
-24,jr
-1,jl
-14,dl
-10,rx
-29,jl
-14,ux
-15,jr
-1,r
-23,jr
-2,j
-10,drx
-8,jr
-14,rz
-5,jl
-15,dlx
-23,gjl
-5,lx
-19,gdl
-69,g
-5,dx
-66,d
-40
+  10,L,J
+  16,U,X
+  24,R,J
+   1,L,J
+  14,L,D
+  10,R,X
+  29,L,J
+  14,U,X
+  15,R,J
+   1,R
+  23,R,J
+   2,J
+  10,R,D,X
+   8,R,J
+  14,R,Z
+   5,L,J
+  15,L,D,X
+  23,L,J,G
+   5,L,X
+  19,L,D,G
+  69,G
+   5,D,X
+  66,D
+  40
 
 #lvl_main-02
-11,dr
-10,drx
-1,jr
-4,r
-20,drx
-29,jr
-15,rx
-5
-5,lx
-10,dl
-5,dx
-25
-20,d
-1,j
-10,jl
-10,ux
-10,jl
-1,l
-1,jl
-1,l
-18,jl
-5,drx
-25,jr
-1,k
-24,kr
-13,k
-1,j
-24,jr
-14,j
-1,k
-24,kr
-11,k
-15,j
-7,jl
-5,ulx
-34,jl
-15,lz
-15,lv
-16,dl
-4,lz
-1,jl
-7,l
-1,jl
-2,l
-6,dlx
-1,jl
-40
+  11,R,D
+  10,R,D,X
+   1,R,J
+   4,R
+  20,R,D,X
+  29,R,J
+  15,R,X
+   5
+   5,L,X
+  10,L,D
+   5,D,X
+  25
+  20,D
+   1,J
+  10,L,J
+  10,U,X
+  10,L,J
+   1,L
+   1,L,J
+   1,L
+  18,L,J
+   5,R,D,X
+  25,R,J
+   1,K
+  24,R,K
+  13,K
+   1,J
+  24,R,J
+  14,J
+   1,K
+  24,R,K
+  11,K
+  15,J
+   7,L,J
+   5,L,U,X
+  34,L,J
+  15,L,Z
+  15,L,V
+  16,L,D
+   4,L,Z
+   1,L,J
+   7,L
+   1,L,J
+   2,L
+   6,L,D,X
+   1,L,J
+  40
 
 #lvl_main-03
-1,l
-7,r
-10,lx
-16,jl
-6,jr
-14,ux
-5
-15,jl
-1,l
-27,l
-13,lx
-36,jr
-3,jl
-12,gkr
-11,gjr
-8,kl
-10,rz
-36,jl
-17,ux
-26,jr
-10,rz
-2,jr
-3,jl
-15,drx
-19,jr
-19,urx
-12,jl
-2,kr
-40
+   1,L
+   7,R
+  10,L,X
+  16,L,J
+   6,R,J
+  14,U,X
+   5
+  15,L,J
+   1,L
+  27,L
+  13,L,X
+  36,R,J
+   3,L,J
+  12,R,K,G
+  11,R,J,G
+   8,L,K
+  10,R,Z
+  36,L,J
+  17,U,X
+  26,R,J
+  10,R,Z
+   2,R,J
+   3,L,J
+  15,R,D,X
+  19,R,J
+  19,R,U,X
+  12,L,J
+   2,R,K
+  40
 
 #lvl_end
-15,jr
-12,gkr
-12,gjr
-2,gkr
-27,jl
-14,ux
-58,jl
-4,x
-1,drx
-134,dr
+  15,R,J
+  12,R,K,G
+  12,R,J,G
+   2,R,K,G
+  27,L,J
+  14,U,X
+  58,L,J
+   4,X
+   1,R,D,X
+ 134,R,D

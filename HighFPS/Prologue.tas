@@ -1,0 +1,9 @@
+console load 0
+1
+
+#Start
+1
+***
+Set, InfiniteStamina, true
+Set, ExtendedVariantMode.GameSpeed, 0.09
+600

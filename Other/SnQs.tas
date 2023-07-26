@@ -1,0 +1,63 @@
+RecordCount: 62
+
+console load StrawberryJam2021/2-Intermediate/Rocketguy2 RG2-2
+ 110
+***
+
+Unsafe
+
+Set Player.Speed 0 0
+Set Player.Position x y
+Set Level.TimeActive 0
+  36
+
+#SnQ 1st
+#Chapter: 35f
+#RTA: 158f
+#   1,S
+#   1,U
+#   1,F,0
+#   1,U,J
+#  31
+#  14
+#   1,J
+#  56
+#   1,J
+#  14
+#   1,J
+#   1
+#  36
+
+#SnQ Debug
+#Chapter: 35f
+#RTA: 120f
+   1,S
+   1,U
+   1,F,0
+   1,U,J
+  31
+  14
+   1,D
+   1,J
+  33
+  36
+
+#RTL
+#Chapter: 34f
+#RTA: 214
+   1,S
+   1,U,J
+  32,O
+   1
+  36
+   4,L,Z
+   1,L,J
+   8,L
+   1,X
+  20
+   1,J
+  30
+   1,J
+  46
+  36
+ 100

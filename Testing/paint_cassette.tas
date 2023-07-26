@@ -1,0 +1,20 @@
+console load StrawberryJam2021/1-Beginner/ZZ-HeartSide 19820 -8912
+37
+15,lx
+135
+Set,Player.Position,19900,-9100
+20
+Set,Player.Position,19915,-9100
+# Spring isn't important
+Set,CustomSpring[cp6_03_heartside_Moss_1:7221].Position,0,0
+***
+40,gr
+12,gj
+12,gk
+
+# Not related to forcemove or autojump
+Set,Player.forceMoveX,0
+Set,Player.forceMoveXTimer,0
+Set,Player.AutoJumpTimer,0
+
+100

@@ -1,0 +1,62 @@
+# Spinner Indicator ver 1.2, published on 2023/01/08, author: Lozen
+# Settings here
+console evalcs bool isUse_Cycle_Hitbox_Color = true;
+console evalcs bool isUse_Deactivate = false;
+console evalcs bool isUse_Number = false;
+console evalcs bool isUse_Load_Range = true;
+console evalcs bool isUse_Simplified_Spinner_Collider = true;
+console evalcs bool isUse_Show_Whether_In_Camera_View = true;
+
+# namespace
+console evalcs using On.Monocle;
+console evalcs using System.Reflection;
+console evalcs using TAS.EverestInterop.Hitboxes;
+
+# loading range
+console evalcs Color spinner_center_color = Color.Lime;
+console evalcs Color hazard_not_in_view_color = Color.Lime;
+console evalcs float range_camera_width = 16f;
+console evalcs Color range_camera_color = Color.Yellow;
+console evalcs float range_player_width = 16f;
+# you can change range_player_width
+console evalcs Color range_player_color = Color.Lime;
+console evalcs float range_alpha = 0.4f;
+console evalcs Vector2 cameraPos = Vector2.Zero;
+
+# offset
+console evalcs int spinner_UpperBound = (isUse_Deactivate ? 99 : 9);
+console evalcs float spinner_interval = (isUse_Deactivate ? 0.25f : 0.05f);
+console evalcs FieldInfo f_Spinner_offset = typeof(Celeste.CrystalStaticSpinner).GetField("offset", BindingFlags.NonPublic | BindingFlags.Instance);
+console evalcs FieldInfo f_Lightning_offset = typeof(Celeste.Lightning).GetField("toggleOffset", BindingFlags.NonPublic | BindingFlags.Instance);
+console evalcs FieldInfo f_Dust_offset = typeof(Celeste.DustStaticSpinner).GetField("offset", BindingFlags.NonPublic | BindingFlags.Instance);
+
+# numeric indicator
+console evalcs Color B = Color.Black;
+console evalcs Color W = Color.White;
+console evalcs Color N = Color.Transparent;
+# c_i is the color of number i
+console evalcs Color c0 = W;
+console evalcs Color c1 = W;
+console evalcs Color c2 = W;
+console evalcs Color c3 = W;
+console evalcs Color c4 = W;
+console evalcs Color c5 = W;
+console evalcs Color c6 = W;
+console evalcs Color c7 = W;
+console evalcs Color c8 = W;
+console evalcs Color c9 = W;
+# draw 0~9 manually
+console evalcs Color[,,] drawN = new Color[,,]{{{B,B,B,B,B},{B,c0,c0,c0,B},{B,c0,B,c0,B},{B,c0,B,c0,B},{B,c0,B,c0,B},{B,c0,c0,c0,B},{B,B,B,B,B}},{{B,B,B,B,N},{B,c1,c1,B,N},{B,B,c1,B,N},{N,B,c1,B,N},{B,B,c1,B,B},{B,c1,c1,c1,B},{B,B,B,B,B}},{{B,B,B,B,B},{B,c2,c2,c2,B},{B,B,B,c2,B},{B,c2,c2,c2,B},{B,c2,B,B,B},{B,c2,c2,c2,B},{B,B,B,B,B}},{{B,B,B,B,B},{B,c3,c3,c3,B},{B,B,B,c3,B},{B,c3,c3,c3,B},{B,B,B,c3,B},{B,c3,c3,c3,B},{B,B,B,B,B}},{{B,B,B,B,B},{B,c4,B,c4,B},{B,c4,B,c4,B},{B,c4,c4,c4,B},{B,B,B,c4,B},{N,N,B,c4,B},{N,N,B,B,B}},{{B,B,B,B,B},{B,c5,c5,c5,B},{B,c5,B,B,B},{B,c5,c5,c5,B},{B,B,B,c5,B},{B,c5,c5,c5,B},{B,B,B,B,B}},{{B,B,B,B,B},{B,c6,c6,c6,B},{B,c6,B,B,B},{B,c6,c6,c6,B},{B,c6,B,c6,B},{B,c6,c6,c6,B},{B,B,B,B,B}},{{B,B,B,B,B},{B,c7,c7,c7,B},{B,B,B,c7,B},{N,N,B,c7,B},{N,N,B,c7,B},{N,N,B,c7,B},{N,N,B,B,B}},{{B,B,B,B,B},{B,c8,c8,c8,B},{B,c8,B,c8,B},{B,c8,c8,c8,B},{B,c8,B,c8,B},{B,c8,c8,c8,B},{B,B,B,B,B}},{{B,B,B,B,B},{B,c9,c9,c9,B},{B,c9,B,c9,B},{B,c9,c9,c9,B},{B,B,B,c9,B},{B,c9,c9,c9,B},{B,B,B,B,B}}};
+
+# simplified spinner collider
+console evalcs float[,] spinner_delta = new float[,]{{-6f,-2f},{-6f,-1f},{5f,-2f},{5f,-1f},{-8f,-3f},{-7f,-3f},{-6f,-3f},{-6f,-4f},{-5f,-5f},{-4f,-6f},{-3f,-6f},{-2f,-6f},{-1f,-6f},{0f,-6f},{1f,-6f},{2f,-6f},{3f,-6f},{4f,-5f},{5f,-4f},{5f,-3f},{6f,-3f},{7f,-3f},{7f,-2f},{7f,-1f},{7f,0f},{6f,0f},{5f,0f},{5f,1f},{5f,2f},{5f,3f},{4f,4f},{3f,5f},{2f,5f},{1f,5f},{0f,5f},{-1f,5f},{-2f,5f},{-3f,5f},{-4f,5f},{-5f,4f},{-6f,3f},{-6f,2f},{-6f,1f},{-6f,0f},{-7f,0f},{-8f,0f},{-8f,-1f},{-8f,-2f}};
+console evalcs Vector2[] spinner_delta_v2 = new Vector2[48];
+console evalcs {for (int i = 0; i < 48 ; i++){spinner_delta_v2[i] = new Vector2(spinner_delta[i,0],spinner_delta[i,1]);}};
+console evalcs Color[] IndicatorHitboxColor = new Color[4]{Color.Red, Color.Yellow, new Color(0.1f, 0.2f, 1f), new Color(0.25f, 1f, 0.5f)};
+
+console evalcs On.Monocle.Entity.Update -= hook1;
+console evalcs On.Monocle.Entity.hook_Update hook1 = (orig, self) => {orig(self); if (self is Player) {cameraPos = (self.Scene as Level).Camera.Position;}};
+console evalcs On.Monocle.Entity.Update += hook1;
+console evalcs On.Monocle.Entity.DebugRender -= hook2;
+console evalcs On.Monocle.Entity.hook_DebugRender hook2 = (orig, self, camera) => {    if (self is CrystalStaticSpinner || self is Lightning || self is DustStaticSpinner) {        float offset;        Vector2 pos;        bool inview ;        if (self is Lightning){            offset = (float)f_Lightning_offset.GetValue(self);            pos = self.Center + new Vector2(-2f,-4f);            inview = self.X + self.Width > cameraPos.X - 16f && self.Y + self.Height > cameraPos.Y - 16f && self.X < cameraPos.X + 320f + 16f && self.Y < cameraPos.Y + 180f + 16f;        }        else {            if (self is CrystalStaticSpinner){                offset = (float)f_Spinner_offset.GetValue(self);            }            else {                offset = (float)f_Dust_offset.GetValue(self);            }            pos = self.Position + (isUse_Load_Range ? new Vector2(-2f,2f) : new Vector2(-2f,-4f));            inview = self.X > cameraPos.X -16f && self.Y > cameraPos.Y -16f && self.X < cameraPos.X +320f+16f && self.Y < cameraPos.Y +180f+16f;        }        if (!isUse_Simplified_Spinner_Collider){            if (isUse_Cycle_Hitbox_Color){                orig(self, camera);            } else {                self.Collider.Render(camera, IndicatorHitboxColor[0] * (self.Collidable ? 1f : TAS.EverestInterop.Hitboxes.HitboxColor.UnCollidableAlpha));            }        }        else {            Color cyclecolor = IndicatorHitboxColor[0];            if (isUse_Cycle_Hitbox_Color){                float time = self.Scene.TimeActive;                int timeDist = 0;                while (Math.Floor((time - offset - Monocle.Engine.DeltaTime) / 0.05f) >= Math.Floor((time - offset) / 0.05f) && timeDist < 3) {                    time += Monocle.Engine.DeltaTime;                    timeDist++;                }                int group = 3;                if (timeDist < 3) {                    group =  (timeDist + TAS.EverestInterop.Hitboxes.CycleHitboxColor.GroupCounter) % 3;                }                cyclecolor = IndicatorHitboxColor[group] ;                if (isUse_Show_Whether_In_Camera_View && !inview && (self is CrystalStaticSpinner || self is Lightning)){                    cyclecolor = hazard_not_in_view_color;                }                if (time >= 524288f && timeDist < 3){                    cyclecolor = IndicatorHitboxColor[0];                }            }            if (self is Lightning){                self.Collider.Render(camera, cyclecolor * (self.Collidable ? 1f : TAS.EverestInterop.Hitboxes.HitboxColor.UnCollidableAlpha));            }            else {                for (int i = 0 ; i<48 ; i++){                    Monocle.Draw.Point(self.Position + spinner_delta_v2[i] ,cyclecolor * (self.Collidable ? 1f : HitboxColor.UnCollidableAlpha));                }            }        }        if (isUse_Load_Range){            if (self is Lightning){                if (!inview){                    Monocle.Draw.HollowRect(self.Position, self.Width+1, self.Height+1, spinner_center_color);                }            } else {                Monocle.Draw.Point(self.Position , spinner_center_color);                Monocle.Draw.Point(self.Position + new Vector2(-1f,-1f) , spinner_center_color);                Monocle.Draw.Point(self.Position + new Vector2(-1f,1f) , spinner_center_color);                Monocle.Draw.Point(self.Position + new Vector2(1f,-1f) , spinner_center_color);                Monocle.Draw.Point(self.Position + new Vector2(1f,1f) , spinner_center_color);            }        }        if (isUse_Number){            float time = self.Scene.TimeActive;            int timedist = spinner_UpperBound;            float interval = (self is DustStaticSpinner ? 0.05f : spinner_interval);            for (int i=0; i<spinner_UpperBound ; i++){                if (Math.Floor((time - offset - Monocle.Engine.DeltaTime)/interval) < Math.Floor((time - offset)/interval)) {                    timedist =i ;                    break;                } else {                    time += Monocle.Engine.DeltaTime;                }            }            if (timedist > 9){                for (int i = 0 ; i<= 6 ;i++){                    for (int j = 0 ; j<= 4 ; j++){                        Monocle.Draw.Point(pos + new Vector2(j-4,i), drawN[timedist/10,i,j]);                    }                }                timedist = timedist % 10;            }            for (int i = 0 ; i<= 6 ;i++){                for (int j = 0 ; j<= 4 ; j++){                    Monocle.Draw.Point(pos + new Vector2(j,i), drawN[timedist,i,j]);                }            }        }        return;    } else if (self is Celeste.Player && isUse_Load_Range) {              float left = (float)Math.Floor(cameraPos.X - 16f)+1f;        float top = (float)Math.Floor(cameraPos.Y - 16f)+1f;        float right = (float)Math.Ceiling(cameraPos.X + 320f + 16f)-1f;        float bottom = (float)Math.Ceiling(cameraPos.Y + 180f + 16f)-1f;        Monocle.Draw.HollowRect(left,top, right - left + 1 , bottom - top + 1 , Color.LightBlue * (1f*0.75f));        Monocle.Draw.Rect(left,top, right - left + 1 , range_camera_width  , range_camera_color * range_alpha);        Monocle.Draw.Rect(left,bottom - range_camera_width, right - left + 1 , range_camera_width +1 , range_camera_color * range_alpha);        Monocle.Draw.Rect(left,top + range_camera_width , range_camera_width  , bottom - top - 2 *  range_camera_width  , range_camera_color * range_alpha);        Monocle.Draw.Rect(right - range_camera_width,top + range_camera_width , range_camera_width + 1 , bottom - top - 2 *  range_camera_width  , range_camera_color * range_alpha);               Monocle.Draw.HollowRect(self.Position + new Vector2(-127f,-127f), 255f, 255f, range_player_color);        Monocle.Draw.Rect(self.Position + new Vector2(-127f,-127f), 255f , range_player_width, range_player_color * range_alpha);         Monocle.Draw.Rect(self.Position + new Vector2(-127f,128f-range_player_width), 255f , range_player_width, range_player_color * range_alpha);         Monocle.Draw.Rect(self.Position + new Vector2(-127f,-127f + range_player_width), range_player_width , 255f - 2 * range_player_width , range_player_color * range_alpha);        Monocle.Draw.Rect(self.Position + new Vector2(128f-range_player_width ,-127f + range_player_width), range_player_width  , 255f - 2 * range_player_width , range_player_color * range_alpha);        orig(self, camera);        return;    }    orig(self, camera);}
+console evalcs On.Monocle.Entity.DebugRender += hook2;

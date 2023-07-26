@@ -1,0 +1,69 @@
+RecordCount: 91
+
+console load 1
+  89
+
+#Start
+   4,R,Z
+console sol_start
+console sol_state 2
+   1,R,J
+Repeat 20
+   1,R,J
+   1,R,K
+EndRepeat
+Repeat 50
+console sol_state 3
+   1,R,J
+  14,R,D,X
+console sol_state 4
+   1,R,D,X
+EndRepeat
+   4,L,Z
+console sol_state 2
+   1,L,J
+Repeat 20
+   1,L,J
+   1,L,K
+EndRepeat
+Repeat 29
+console sol_state 3
+   1,L,J
+  14,L,D,X
+console sol_state 4
+   1,L,D,X
+EndRepeat
+console sol_state 2
+Repeat 1100
+   1,L,J
+   1,L,K
+EndRepeat
+console sol_state 3
+   1,L,J
+  14,L,D,X
+console sol_state 4
+   1,L,D,X
+console sol_state 2
+Repeat 52
+   1,L,J
+   1,L,K
+EndRepeat
+   1,L,J
+   1,R,K
+console sol_state 3
+  24
+console sol_state 2
+   1
+console sol_state 3
+   1
+console sol_state 2
+  34
+  11,L
+   3
+console sol_state 3
+   1
+
+console sol_stop
+Read, Vanilla/1A, lvl_1
+
+

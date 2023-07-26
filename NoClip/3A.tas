@@ -71,7 +71,6 @@ Set,Naive Movement.Enabled,true
 40
 
 #lvl_0x-a
-***
 1,gjr
 1,gkr
 1,gjr
@@ -95,7 +94,6 @@ Set,Naive Movement.Enabled,true
 40,kr
 
 #lvl_02-a
-***
 1,kr
 2,gjr
 10,urx
@@ -139,7 +137,6 @@ Set,Naive Movement.Enabled,true
 1,s
 1,dj
 34
-***
 1,jr
 1,r
 40
@@ -270,7 +267,6 @@ Set,Naive Movement.Enabled,true
 1,gkr
 1,gjr
 8,r
-***
 1,jr
 1,gkr
 2,gjr
@@ -282,4 +278,4 @@ Set,Naive Movement.Enabled,true
 1,s
 1,dj
 Set,Naive Movement.Enabled,false
-ChapterTime: 0:31.484(1852)
+ChapterTime: 0:26.265(1545)

@@ -1,0 +1,43 @@
+Unsafe
+
+; Thanks to EllaTAS for providing a good reference
+; https://github.com/ella-TAS/ella-TAS/blob/main/start.tas
+
+; This TAS should be started while "Beginn" is hovered in file select
+
+#s_Filename
+1,d
+1,j
+41
+#m_Filename
+1,s
+48
+1,u
+#e_Filename
+
+#s_Mapselect
+1,d
+1,f,180
+1,d
+1,f,180
+#m_Mapselect
+1,u
+1,f,0
+1,u
+1,f,0
+#e_Mapselect
+
+#Start
+
+Set, SpeedrunClock, 2
+
+Set, Everest.UseKeyboardForTextInput, False
+Set, ScreenShake, Off
+Set, DisableFlashes, true
+Set, CrouchDashMode, Press
+Set, GrabMode, Hold
+
+1,j
+1
+
+#

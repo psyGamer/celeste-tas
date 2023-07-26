@@ -1,0 +1,184 @@
+# ParrotDashBirthdayCollab
+# https://gamebanana.com/mods/384870
+
+RecordCount: 481
+
+console load ParrotDashBirthdayCollab2022/1-Maps/over_the_rainbow
+   1
+
+#Start
+  84
+
+#lvl_a01
+   6,R,Z
+   1,R,J
+   7,R
+   1,R,J
+  11,R,D,X
+   1,R,J
+   7,R
+  40
+
+#lvl_a02
+   3,R,J
+  10,R,K,G
+  15,U,X,G
+  35,D,G
+ 117,R,D,G
+   1,R
+  22,R,Z
+  40
+
+#lvl_a03
+   1,S
+   1,D,J
+  69,O
+   4,R,Z
+   1,R,J
+  40
+
+#Start
+84
+
+#a01
+6,rz
+1,jr
+7,r
+1,jr
+11,drx
+1,jr
+7,r
+40
+
+#a02
+3,jr
+10,gkr
+15,gux
+35,gd
+117,gdr
+1,r
+22,rz
+40
+
+#a03
+1,s
+1,dj
+69,o
+4,rz
+1,jr
+40
+
+#a03
+  49,R,J
+  17,R,U,X
+  74,R,J
+  10,R,Z
+  17,R
+   1,R,J
+   6,R,D,X
+   3,R,J
+#a04
+  59,R,J
+  14,R,U,X
+   2,R,J
+   7,R,D,G
+  20,D,G
+  53,L,D,G
+  18,L,G
+   1,R
+  33,L,D
+   3
+  10,L,Z
+  13,L,D
+#cat1
+  37,L,D
+  15,L,D,X
+  23,L,D
+   6
+   1,X
+ 130
+  10,R,X
+  15,R,J
+  10,U,X
+  49,R
+  10,U,X
+  55,L
+  63,U,X
+   1,S
+   1,D,J
+   1,O
+  68
+   1,R,D,X
+   6,R,J
+#a04
+  57,R,J
+  15,R,U,Z
+   9,R
+  20,U,X,G
+  16,R,G
+   1,R
+  41,R,D
+  10,R,Z
+  60,L,D
+  23,R,J
+  10,U,X
+  70,R,D,G
+  99,L,J,G
+
+
+
+  99
+#a05
+  54,L
+  24,R,U,X
+   2,R,J
+  15,R,D,G
+  40,D,G
+   1,D
+   4,L,J
+  16,R,X
+  20,U,C
+  15,R,G
+  15,R
+  12,L,U
+  15,R,U,X
+  59,R,D
+  22,R,J
+  15,U,X
+  12,R,J,G
+  84,D,G
+  17,D
+   8,J
+  20,L,D,X
+#a06
+  50,L,D
+  14,L,D,X
+   1,L,J
+  14,L,X
+   1,L,J
+   4,L
+  42,D,X
+   2,J
+  10,L,Z
+  60,R,J,G
+   1,R
+  10,U,X
+  74,R,D,G
+   5,R
+  18,R,Z
+  30,L,J,G
+  64,R,G
+  26,R,U
+  14,R,U,X
+  11,J
+  10,U,X,G
+  75,R,U,G
+   1,L
+   1,R
+   4,R,X
+  11,R,J
+#a07
+  42,R,J
+  15,U,X
+
+
