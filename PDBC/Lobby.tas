@@ -1,355 +1,355 @@
 console load ParrotDashBirthdayCollab2022/0-Lobbies/Lobby
-1
+   1
 
 #Start
 Unsafe
-190
+ 190
 
 # Start -> HotUDS
-4,lx
-13,jl
-12,gkl
-2,gj
-9,gjl
-14,gkl
-12,gjl
-9,l
-4,jl
-3,gkl
-14,lz
-28,jl
-15,ulx
-9,l
-1,jl
-10,l
-14,drx
-7,jl
-14,ulx
-2,gjl
-4,gkl
-5,gjl
-7,l
-6,jl
-4,gkl
-14,ulx
-7,gjl
-8,gkl
-2,kr
-5,gjl
-9,l
-1,n
-20
-1,o
-30
-1,o
-46
+   4,L,X
+  13,L,J
+  12,L,K,G
+   2,J,G
+   9,L,J,G
+  14,L,K,G
+  12,L,J,G
+   9,L
+   4,L,J
+   3,L,K,G
+  14,L,Z
+  28,L,J
+  15,L,U,X
+   9,L
+   1,L,J
+  10,L
+  14,R,D,X
+   7,L,J
+  14,L,U,X
+   2,L,J,G
+   4,L,K,G
+   5,L,J,G
+   7,L
+   6,L,J
+   4,L,K,G
+  14,L,U,X
+   7,L,J,G
+   8,L,K,G
+   2,R,K
+   5,L,J,G
+   9,L
+   1,N
+  20
+   1,O
+  30
+   1,O
+  46
 Read, TAS/PDBC/HeartOfTheUltraDifficultSummit_AB, start
-128
+ 128
 # console load ParrotDashBirthdayCollab2022/0-Lobbies/Lobby -104 816
 # 37
 
 # HotUDS -> OtR
-2,jl
-14,lz
-1,jl
-6,lz
-1,jr
-7,r
-6,jr
-17,drx
-55,jr
-15,urx
-18,r
-14,rz
-1,jl
-11,dlx
-1,jr
-40,r
-55,d
-14,lz
-1,jr
-5,r
-9,jr
-7,urx
-7,gjr
-7,r
-3,jr
-5,rz
-6,jr
-11,r
-1,n
-21
-1,o
-30
-1,o
-46
+   2,L,J
+  14,L,Z
+   1,L,J
+   6,L,Z
+   1,R,J
+   7,R
+   6,R,J
+  17,R,D,X
+  55,R,J
+  15,R,U,X
+  18,R
+  14,R,Z
+   1,L,J
+  11,L,D,X
+   1,R,J
+  40,R
+  55,D
+  14,L,Z
+   1,R,J
+   5,R
+   9,R,J
+   7,R,U,X
+   7,R,J,G
+   7,R
+   3,R,J
+   5,R,Z
+   6,R,J
+  11,R
+   1,N
+  21
+   1,O
+  30
+   1,O
+  46
 Read, TAS/PDBC/OverTheRainbow_AB, Start
-128
+ 128
 # console load ParrotDashBirthdayCollab2022/0-Lobbies/Lobby 480 808
 # 37
 
 # OtR -> DBbT
-10,lz
-1,jr
-7,r
-8,dlx
-1,jr
-1,kr
-1,jr
-1,kr
-1,jr
-5,r
-2,jr
-70,dr
-20,dl
-47,dr
-4,R
-1,n
-20
-1,o
-30
-1,o
-46
+  10,L,Z
+   1,R,J
+   7,R
+   8,L,D,X
+   1,R,J
+   1,R,K
+   1,R,J
+   1,R,K
+   1,R,J
+   5,R
+   2,R,J
+  70,R,D
+  20,L,D
+  47,R,D
+   4,R
+   1,N
+  20
+   1,O
+  30
+   1,O
+  46
 Read, TAS/PDBC/DoubleBlockboostTemple_AB, Start
-128
+ 128
 # console load ParrotDashBirthdayCollab2022/0-Lobbies/Lobby 920 1304
 # 37
 
 # DBbT -> CBT
-10,drx
-3,jl
-20,dl
-28,dr
-8,dl
-10,dlx
-10,jl
-15,dlx
+  10,R,D,X
+   3,L,J
+  20,L,D
+  28,R,D
+   8,L,D
+  10,L,D,X
+  10,L,J
+  15,L,D,X
 Repeat, 5
-1,jl
-1,kl
+   1,L,J
+   1,L,K
 EndRepeat
-5,gjl
-23,dlx
-8,jl
-4,gkl
-9,gjl
-1,gkl
-5,l
-4,l
-4,l
-14,lz
-1,jl
-1,n
-21
-1,o
-30
-1,o
-46
+   5,L,J,G
+  23,L,D,X
+   8,L,J
+   4,L,K,G
+   9,L,J,G
+   1,L,K,G
+   5,L
+   4,L
+   4,L
+  14,L,Z
+   1,L,J
+   1,N
+  21
+   1,O
+  30
+   1,O
+  46
 Read, TAS/PDBC/CastleBeyondTemptation_AB, start
-128
+ 128
 # console load ParrotDashBirthdayCollab2022/0-Lobbies/Lobby -96 1496
 # 37
 
 # CBT -> PB
-10,lz
-1,jr
-7,r
-7,jr
-15,drx
-1,jr
-7,gkr
-5,drx
-1,gjr
-12,r
-7,jr
-15,drx
-2,r
-16,jr
-14,ux
-24,jr
-3,gk
-4,kl
-12,gjr
-3,gk
-7,kl
-1,kr
-4,gjr
-7,gj
-1,gjr
-1,gkr
-4,gjr
-10,r
-4,rz
-8,jr
-2,r
-1,n
-20
-1,o
-30
-1,o
-46
+  10,L,Z
+   1,R,J
+   7,R
+   7,R,J
+  15,R,D,X
+   1,R,J
+   7,R,K,G
+   5,R,D,X
+   1,R,J,G
+  12,R
+   7,R,J
+  15,R,D,X
+   2,R
+  16,R,J
+  14,U,X
+  24,R,J
+   3,K,G
+   4,L,K
+  12,R,J,G
+   3,K,G
+   7,L,K
+   1,R,K
+   4,R,J,G
+   7,J,G
+   1,R,J,G
+   1,R,K,G
+   4,R,J,G
+  10,R
+   4,R,Z
+   8,R,J
+   2,R
+   1,N
+  20
+   1,O
+  30
+   1,O
+  46
 Read, TAS/PDBC/ProjectBarracuda_AB, start
-128
+ 128
 # console load ParrotDashBirthdayCollab2022/0-Lobbies/Lobby 392 1312
 # 37
 
 # PB -> HotV
-5,jl
-15,dlx
-18,dr
-46,drx
-9,dlc
-1,jr
-7,r
-1,jr
-5,gkr
-7,r
-4,jr
-6,gkr
-7,gjr
-7,gkr
-15,drx
+   5,L,J
+  15,L,D,X
+  18,R,D
+  46,R,D,X
+   9,L,D,C
+   1,R,J
+   7,R
+   1,R,J
+   5,R,K,G
+   7,R
+   4,R,J
+   6,R,K,G
+   7,R,J,G
+   7,R,K,G
+  15,R,D,X
 Repeat, 4
-1,jr
-1,kr
+   1,R,J
+   1,R,K
 EndRepeat
-2,jr
-10,r
-1,jr
-5,r
-2,jr
-1,jl
-1,jl
-2,r
-5,gkr
-4,gjr
-10,gkr
-2,r
-9,rx
-1,gjr
-10,r
-3,jr
-5,drx
-4,gjr
-18,r
-2,jr
-6,rz
-1,jr
-1,n
-20
-1,o
-46
+   2,R,J
+  10,R
+   1,R,J
+   5,R
+   2,R,J
+   1,L,J
+   1,L,J
+   2,R
+   5,R,K,G
+   4,R,J,G
+  10,R,K,G
+   2,R
+   9,R,X
+   1,R,J,G
+  10,R
+   3,R,J
+   5,R,D,X
+   4,R,J,G
+  18,R
+   2,R,J
+   6,R,Z
+   1,R,J
+   1,N
+  20
+   1,O
+  46
 Read, TAS/PDBC/HeartOfTheVolcano_AB, start
-131
+ 131
 # console load ParrotDashBirthdayCollab2022/0-Lobbies/Lobby 1408 1432
 # 40
 
 # HotV -> TC
-1,jr
-10,dlx
-1,jl
-4,l
-14,lz
-1,jl
-7,l
-14,jl
-12,lx
-1,jr
-2,jl
-10,rx
-1,jl
-5,l
-10,rz
-12,jl
-4,gkl
-8,lz
-3,jl
-1,gkl
-10,l
-1,n
-20
-1,o
-30
-1,o
-46
+   1,R,J
+  10,L,D,X
+   1,L,J
+   4,L
+  14,L,Z
+   1,L,J
+   7,L
+  14,L,J
+  12,L,X
+   1,R,J
+   2,L,J
+  10,R,X
+   1,L,J
+   5,L
+  10,R,Z
+  12,L,J
+   4,L,K,G
+   8,L,Z
+   3,L,J
+   1,L,K,G
+  10,L
+   1,N
+  20
+   1,O
+  30
+   1,O
+  46
 Read, TAS/PDBC/TheComplicated_AB, Start
-128
+ 128
 # console load ParrotDashBirthdayCollab2022/0-Lobbies/Lobby 1128 1232
 # 37
 
 # TC -> End
-10,lx
-15,jr
-15,uz
-9,gjl
-7,l
-3,jl
-13,gkl
-14,ulx
-12,gjl
-8,gkl
-7,l
-8,jl
-12,gkl
-14,ux
-24,jl
-1,kg
-3,kl
-2,k
-1,kl
-1,kr
-1,kl
-13,gjl
-9,gkl
-17,gjl
-1,s
-1,dj
-34
-2,l
-13,jl
-13,dlx
-4,jl
-62,dlx
-6,lz
-1,jl
-2,l
-2,jl
-1,l
-1,jl
-3,l
-4,jl
-7,lz
-1,jl
-6,l
-29,jl
-14,lx
-3,jl
-4,gkl
-10,lz
-1,jl
-69,ld
-13,lx
-2,jl
-5,gkl
-5,lz
-1,jl
-7,l
-2,jl
-5,lz
-1,jl
-7,l
-18,jl
-1,s
-35,dj
-11,lx
-1,gjl
-9,l
-2,jl
-20,dlx
-23,jl
-14,ulx
-195,dl
-1,x
+  10,L,X
+  15,R,J
+  15,U,Z
+   9,L,J,G
+   7,L
+   3,L,J
+  13,L,K,G
+  14,L,U,X
+  12,L,J,G
+   8,L,K,G
+   7,L
+   8,L,J
+  12,L,K,G
+  14,U,X
+  24,L,J
+   1,K,G
+   3,L,K
+   2,K
+   1,L,K
+   1,R,K
+   1,L,K
+  13,L,J,G
+   9,L,K,G
+  17,L,J,G
+   1,S
+   1,D,J
+  34
+   2,L
+  13,L,J
+  13,L,D,X
+   4,L,J
+  62,L,D,X
+   6,L,Z
+   1,L,J
+   2,L
+   2,L,J
+   1,L
+   1,L,J
+   3,L
+   4,L,J
+   7,L,Z
+   1,L,J
+   6,L
+  29,L,J
+  14,L,X
+   3,L,J
+   4,L,K,G
+  10,L,Z
+   1,L,J
+  69,L,D
+  13,L,X
+   2,L,J
+   5,L,K,G
+   5,L,Z
+   1,L,J
+   7,L
+   2,L,J
+   5,L,Z
+   1,L,J
+   7,L
+  18,L,J
+   1,S
+  35,D,J
+  11,L,X
+   1,L,J,G
+   9,L
+   2,L,J
+  20,L,D,X
+  23,L,J
+  14,L,U,X
+ 195,L,D
+   1,X
 #5,drx
 #***
 #12,gjr
